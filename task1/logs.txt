@@ -1,0 +1,358 @@
+python task1/web_crawler.py https://ria.ru https://www.mk.ru/news/
+
+Обработка URL: https://ria.ru
+Сохранен документ #1: https://ria.ru
+Обработка URL: https://www.mk.ru/news/
+Сохранен документ #2: https://www.mk.ru/news/
+Обработка URL: https://ria.ru/
+Сохранен документ #3: https://ria.ru/
+Обработка URL: https://ru.wikipedia.org/wiki/%D0%A0%D0%98%D0%90_%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8
+Сохранен документ #4: https://ru.wikipedia.org/wiki/%D0%A0%D0%98%D0%90_%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8
+Обработка URL: https://twitter.com/rianru
+Страница https://twitter.com/rianru не содержит достаточного количества русского текста
+Обработка URL: https://vk.ru/ria
+Страница https://vk.ru/ria содержит недостаточно слов (3 < 1000)
+Обработка URL: https://ok.ru/ria
+Страница https://ok.ru/ria содержит недостаточно слов (373 < 1000)
+Обработка URL: https://www.youtube.com/user/rianovosti
+Ошибка при загрузке https://www.youtube.com/user/rianovosti: 404 Client Error: Not Found for url: https://www.youtube.com/user/rianovosti
+Обработка URL: https://flipboard.com/@rianovosti
+Страница https://flipboard.com/@rianovosti содержит недостаточно слов (256 < 1000)
+Обработка URL: https://zen.yandex.ru/ria
+Страница https://zen.yandex.ru/ria не содержит достаточного количества русского текста
+Обработка URL: https://twitter.com/riabreakingnews
+Страница https://twitter.com/riabreakingnews не содержит достаточного количества русского текста
+Обработка URL: https://invite.viber.com/?g2=AQAOuCQJzow8L0hQtsB3j3zzc7YMKEHijsslO3ZsCFmFcZGSed0OTOa0ruAXXZn6&lang=ru
+Страница https://invite.viber.com/?g2=AQAOuCQJzow8L0hQtsB3j3zzc7YMKEHijsslO3ZsCFmFcZGSed0OTOa0ruAXXZn6&lang=ru не содержит достаточного количества русского текста
+Обработка URL: https://tgclick.com/rian_ru
+Страница https://tgclick.com/rian_ru не содержит достаточного количества русского текста
+Обработка URL: https://yandex.ru/maps/org/rossiya_segodnya/1061985604/?ll=37.590466%2C55.737481&z=14
+Страница https://yandex.ru/maps/org/rossiya_segodnya/1061985604/?ll=37.590466%2C55.737481&z=14 содержит недостаточно слов (847 < 1000)
+Обработка URL: https://www.google.com/maps/place/%D0%A0%D0%98%D0%90+%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/@55.7374019,37.5881028,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54ba5ecf15a7f:0x2b9d63d783e6e919!8m2!3d55.7374019!4d37.5902915
+Страница https://www.google.com/maps/place/%D0%A0%D0%98%D0%90+%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/@55.7374019,37.5881028,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54ba5ecf15a7f:0x2b9d63d783e6e919!8m2!3d55.7374019!4d37.5902915 не содержит достаточного количества русского текста
+Обработка URL: https://news.google.com/publications/CAAqBwgKMNu67AEwn6QS?hl=ru&gl=RU&ceid=RU:ru
+Страница https://news.google.com/publications/CAAqBwgKMNu67AEwn6QS?hl=ru&gl=RU&ceid=RU:ru содержит недостаточно слов (38 < 1000)
+Обработка URL: https://ria.ru/politics/
+Страница https://ria.ru/politics/ содержит недостаточно слов (967 < 1000)
+Обработка URL: https://ria.ru/world/
+Сохранен документ #5: https://ria.ru/world/
+Обработка URL: https://ria.ru/economy/
+Сохранен документ #6: https://ria.ru/economy/
+Обработка URL: https://ria.ru/society/
+Сохранен документ #7: https://ria.ru/society/
+Обработка URL: https://ria.ru/incidents/
+Сохранен документ #8: https://ria.ru/incidents/
+Обработка URL: https://ria.ru/culture/
+Сохранен документ #9: https://ria.ru/culture/
+Обработка URL: https://ria.ru/tourism/
+Сохранен документ #10: https://ria.ru/tourism/
+Обработка URL: https://ria.ru/science/
+Сохранен документ #11: https://ria.ru/science/
+Обработка URL: https://ria.ru/defense_safety/
+Сохранен документ #12: https://ria.ru/defense_safety/
+Обработка URL: https://ria.ru/religion/
+Сохранен документ #13: https://ria.ru/religion/
+Обработка URL: https://ria.ru/sport/
+Сохранен документ #14: https://ria.ru/sport/
+Обработка URL: https://ria.ru/recipe/
+Страница https://ria.ru/recipe/ содержит недостаточно слов (997 < 1000)
+Обработка URL: https://realty.ria.ru/
+Сохранен документ #15: https://realty.ria.ru/
+Обработка URL: https://ria.ru/20260321/tramp-2082089165.html
+Сохранен документ #16: https://ria.ru/20260321/tramp-2082089165.html
+Обработка URL: https://ria.ru/20260320/tramp-2082082591.html
+Страница https://ria.ru/20260320/tramp-2082082591.html содержит недостаточно слов (993 < 1000)
+Обработка URL: https://ria.ru/20260320/evrosoyuz-2082059888.html
+Страница https://ria.ru/20260320/evrosoyuz-2082059888.html содержит недостаточно слов (996 < 1000)
+Обработка URL: https://ria.ru/20260320/putin-2082046020.html
+Страница https://ria.ru/20260320/putin-2082046020.html содержит недостаточно слов (906 < 1000)
+Обработка URL: https://ria.ru/20260320/vsu-2082051329.html
+Сохранен документ #17: https://ria.ru/20260320/vsu-2082051329.html
+Обработка URL: https://ria.ru/20260320/moldaviya-2082070334.html
+Сохранен документ #18: https://ria.ru/20260320/moldaviya-2082070334.html
+Обработка URL: https://ria.ru/20260320/kontakty-2081927016.html
+Сохранен документ #19: https://ria.ru/20260320/kontakty-2081927016.html
+Обработка URL: https://ria.ru/20260320/stavka-2081931391.html
+Сохранен документ #20: https://ria.ru/20260320/stavka-2081931391.html
+Обработка URL: https://ria.ru/20260320/tanker-2081982184.html
+Сохранен документ #21: https://ria.ru/20260320/tanker-2081982184.html
+Обработка URL: https://ria.ru/20260320/monde-2081979365.html
+Сохранен документ #22: https://ria.ru/20260320/monde-2081979365.html
+Обработка URL: https://ria.ru/20260320/vsu-2082065425.html
+Страница https://ria.ru/20260320/vsu-2082065425.html содержит недостаточно слов (998 < 1000)
+Обработка URL: https://ria.ru/author/Strelnikov_Kirill/
+Страница https://ria.ru/author/Strelnikov_Kirill/ содержит недостаточно слов (893 < 1000)
+Обработка URL: https://ria.ru/20260320/iran-2081859048.html
+Сохранен документ #23: https://ria.ru/20260320/iran-2081859048.html
+Обработка URL: https://ria.ru/author/kosyrev/
+Сохранен документ #24: https://ria.ru/author/kosyrev/
+Обработка URL: https://ria.ru/20260320/otkaz-2081859912.html
+Сохранен документ #25: https://ria.ru/20260320/otkaz-2081859912.html
+Обработка URL: https://ria.ru/author/savchuk/
+Страница https://ria.ru/author/savchuk/ содержит недостаточно слов (815 < 1000)
+Обработка URL: https://ria.ru/20260320/evropa-2081812319.html
+Сохранен документ #26: https://ria.ru/20260320/evropa-2081812319.html
+Обработка URL: https://ria.ru/longread/
+Сохранен документ #27: https://ria.ru/longread/
+Обработка URL: https://ria.ru/spetsialnaya-voennaya-operatsiya-na-ukraine/
+Сохранен документ #28: https://ria.ru/spetsialnaya-voennaya-operatsiya-na-ukraine/
+Обработка URL: https://ria.ru/ria-novosti-analitika/
+Сохранен документ #29: https://ria.ru/ria-novosti-analitika/
+Обработка URL: https://ria.ru/photolents/
+Сохранен документ #30: https://ria.ru/photolents/
+Обработка URL: https://ria.ru/video/
+Страница https://ria.ru/video/ содержит недостаточно слов (862 < 1000)
+Обработка URL: https://ria.ru/infografika/
+Сохранен документ #31: https://ria.ru/infografika/
+Обработка URL: https://ria.ru/nadezhnye-lyudi/
+Сохранен документ #32: https://ria.ru/nadezhnye-lyudi/
+Обработка URL: https://ria.ru/victorina/
+Страница https://ria.ru/victorina/ содержит недостаточно слов (822 < 1000)
+Обработка URL: https://ria.ru/polls/
+Страница https://ria.ru/polls/ содержит недостаточно слов (865 < 1000)
+Обработка URL: https://ria.ru/20260320/evropa-2081507520.html
+Сохранен документ #33: https://ria.ru/20260320/evropa-2081507520.html
+Обработка URL: https://ria.ru/20260320/norris-2082009896.html
+Сохранен документ #34: https://ria.ru/20260320/norris-2082009896.html
+Обработка URL: https://ria.ru/20260320/zakharova-2082038850.html
+Сохранен документ #35: https://ria.ru/20260320/zakharova-2082038850.html
+Обработка URL: https://ria.ru/20260320/irak-2081772486.html
+Сохранен документ #36: https://ria.ru/20260320/irak-2081772486.html
+Обработка URL: https://ria.ru/20260320/krokusy-2082018591.html
+Страница https://ria.ru/20260320/krokusy-2082018591.html содержит недостаточно слов (963 < 1000)
+Обработка URL: https://ria.ru/20260320/domodedovo-2081915698.html
+Сохранен документ #37: https://ria.ru/20260320/domodedovo-2081915698.html
+Обработка URL: https://ria.ru/20260320/iran-2081780167.html
+Сохранен документ #38: https://ria.ru/20260320/iran-2081780167.html
+Обработка URL: https://ria.ru/20260320/lerchek-2082046122.html
+Сохранен документ #39: https://ria.ru/20260320/lerchek-2082046122.html
+Обработка URL: https://ria.ru/20260320/proliv-2082022087.html
+Сохранен документ #40: https://ria.ru/20260320/proliv-2082022087.html
+Обработка URL: https://ria.ru/20260320/uraza-bayram-2081989098.html
+Страница https://ria.ru/20260320/uraza-bayram-2081989098.html содержит недостаточно слов (888 < 1000)
+Обработка URL: https://ria.ru/20260321/tramp-2082086801.html?rcmd_alg=slotter
+Сохранен документ #41: https://ria.ru/20260321/tramp-2082086801.html?rcmd_alg=slotter
+Обработка URL: https://ria.ru/20260320/galitskiy-2082085792.html?rcmd_alg=slotter
+Сохранен документ #42: https://ria.ru/20260320/galitskiy-2082085792.html?rcmd_alg=slotter
+Обработка URL: https://ria.ru/20220622/spetsoperatsiya-1795199102.html
+Страница https://ria.ru/20220622/spetsoperatsiya-1795199102.html содержит недостаточно слов (4 < 1000)
+Обработка URL: https://ria.ru/20260320/samolet-2081990186.html
+Страница https://ria.ru/20260320/samolet-2081990186.html содержит недостаточно слов (964 < 1000)
+Обработка URL: https://ria.ru/20260320/putin-2081985713.html
+Страница https://ria.ru/20260320/putin-2081985713.html содержит недостаточно слов (972 < 1000)
+Обработка URL: https://ria.ru/20260320/moda-2081820403.html
+Сохранен документ #43: https://ria.ru/20260320/moda-2081820403.html
+Обработка URL: https://ria.ru/20260320/tramp-2082004119.html
+Сохранен документ #44: https://ria.ru/20260320/tramp-2082004119.html
+Обработка URL: https://ria.ru/20260320/lukashenko-2081944725.html
+Сохранен документ #45: https://ria.ru/20260320/lukashenko-2081944725.html
+Обработка URL: https://ria.ru/20260319/svo-2081184257.html
+Сохранен документ #46: https://ria.ru/20260319/svo-2081184257.html
+Обработка URL: https://ria.ru/20260319/polsha-2081388642.html
+Сохранен документ #47: https://ria.ru/20260319/polsha-2081388642.html
+Обработка URL: https://ria.ru/20260319/moldaviya-2081484895.html
+Сохранен документ #48: https://ria.ru/20260319/moldaviya-2081484895.html
+Обработка URL: https://ria.ru/20260319/kriminal-2081389377.html
+Сохранен документ #49: https://ria.ru/20260319/kriminal-2081389377.html
+Обработка URL: https://ria.ru/author/bavyrin_dmitriy/
+Страница https://ria.ru/author/bavyrin_dmitriy/ содержит недостаточно слов (851 < 1000)
+Обработка URL: https://ria.ru/20260319/senator-2081512663.html
+Сохранен документ #50: https://ria.ru/20260319/senator-2081512663.html
+Обработка URL: https://ria.ru/author/karaeva_elena/
+Страница https://ria.ru/author/karaeva_elena/ содержит недостаточно слов (819 < 1000)
+Обработка URL: https://ria.ru/20260319/polsha-2081548589.html
+Сохранен документ #51: https://ria.ru/20260319/polsha-2081548589.html
+Обработка URL: https://ria.ru/author/david_narmaniya/
+Страница https://ria.ru/author/david_narmaniya/ содержит недостаточно слов (829 < 1000)
+Обработка URL: https://ria.ru/20260319/ssha-2081556480.html
+Сохранен документ #52: https://ria.ru/20260319/ssha-2081556480.html
+Обработка URL: https://ria.ru/20260318/evropa-2081316232.html
+Сохранен документ #53: https://ria.ru/20260318/evropa-2081316232.html
+Обработка URL: https://ria.ru/football/
+Страница https://ria.ru/football/ содержит недостаточно слов (942 < 1000)
+Обработка URL: https://ria.ru/20260320/talalaev-2082054875.html
+Сохранен документ #54: https://ria.ru/20260320/talalaev-2082054875.html
+Обработка URL: https://ria.ru/20260320/khokkey-2082077476.html
+Сохранен документ #55: https://ria.ru/20260320/khokkey-2082077476.html
+Обработка URL: https://ria.ru/20260320/voleybol-2082073980.html
+Страница https://ria.ru/20260320/voleybol-2082073980.html содержит недостаточно слов (969 < 1000)
+Обработка URL: https://ria.ru/20260320/futbol-2082076857.html
+Страница https://ria.ru/20260320/futbol-2082076857.html содержит недостаточно слов (968 < 1000)
+Обработка URL: https://ria.ru/20260320/skalolazanie-2082073136.html
+Сохранен документ #56: https://ria.ru/20260320/skalolazanie-2082073136.html
+Обработка URL: https://ria.ru/hockey/
+Страница https://ria.ru/hockey/ содержит недостаточно слов (884 < 1000)
+Обработка URL: https://ria.ru/20260320/bilyalov-2082072400.html
+Сохранен документ #57: https://ria.ru/20260320/bilyalov-2082072400.html
+Обработка URL: https://ria.ru/20260320/rozhkov-2082061949.html
+Сохранен документ #58: https://ria.ru/20260320/rozhkov-2082061949.html
+Обработка URL: https://ria.ru/20260320/enes-2082058969.html
+Сохранен документ #59: https://ria.ru/20260320/enes-2082058969.html
+Обработка URL: https://ria.ru/20260320/pkr-2082054267.html
+Сохранен документ #60: https://ria.ru/20260320/pkr-2082054267.html
+Обработка URL: https://ria.ru/20260228/izrail-iran-prichiny-vojny-2023542052.html
+Сохранен документ #61: https://ria.ru/20260228/izrail-iran-prichiny-vojny-2023542052.html
+Обработка URL: https://ria.ru/20260320/uraza-bayram-2026-2081922484.html
+Сохранен документ #62: https://ria.ru/20260320/uraza-bayram-2026-2081922484.html
+Обработка URL: https://ria.ru/20260319/den-vesennego-ravnodenstviya-2026-2081825707.html
+Сохранен документ #63: https://ria.ru/20260319/den-vesennego-ravnodenstviya-2026-2081825707.html
+Обработка URL: https://ria.ru/20251230/pravoslavnyj-kalendar-daty-prazdnikov-2065611676.html
+Сохранен документ #64: https://ria.ru/20251230/pravoslavnyj-kalendar-daty-prazdnikov-2065611676.html
+Обработка URL: https://ria.ru/20260122/majskie-prazdniki-2026-2069531375.html
+Сохранен документ #65: https://ria.ru/20260122/majskie-prazdniki-2026-2069531375.html
+Обработка URL: https://ria.ru/pravo/lgoty-pensioneram/
+Сохранен документ #66: https://ria.ru/pravo/lgoty-pensioneram/
+Обработка URL: https://ria.ru/20251226/dolgi-za-zhkkh-2064911751.html
+Сохранен документ #67: https://ria.ru/20251226/dolgi-za-zhkkh-2064911751.html
+Обработка URL: https://ria.ru/person/chak-norris-karlos-norris/
+Сохранен документ #68: https://ria.ru/person/chak-norris-karlos-norris/
+Обработка URL: https://ria.ru/20250824/klyuchevaya_stavka-1962773695.html
+Сохранен документ #69: https://ria.ru/20250824/klyuchevaya_stavka-1962773695.html
+Обработка URL: https://ria.ru/obrazovanie/izmeneniya-oge-2026
+Сохранен документ #70: https://ria.ru/obrazovanie/izmeneniya-oge-2026
+Обработка URL: https://ria.ru/posobiya-i-lgoty/vyplaty-i-lgoty-uchastnikam-svo/
+Сохранен документ #71: https://ria.ru/posobiya-i-lgoty/vyplaty-i-lgoty-uchastnikam-svo/
+Обработка URL: https://ria.ru/20250620/matkapital-1733022511.html
+Сохранен документ #72: https://ria.ru/20250620/matkapital-1733022511.html
+Обработка URL: https://ria.ru/person/
+Страница https://ria.ru/person/ содержит недостаточно слов (702 < 1000)
+Обработка URL: https://ria.ru/20260219/velikij-post-2026-2075607793.html
+Сохранен документ #73: https://ria.ru/20260219/velikij-post-2026-2075607793.html
+Обработка URL: https://ria.ru/finansy/indeksatsiya-pensiy
+Сохранен документ #74: https://ria.ru/finansy/indeksatsiya-pensiy
+Обработка URL: https://max.ru/ria
+Страница https://max.ru/ria содержит недостаточно слов (35 < 1000)
+Обработка URL: https://dzen.ru/ria?invite=1
+Страница https://dzen.ru/ria?invite=1 не содержит достаточного количества русского текста
+Обработка URL: https://www.odnoklassniki.ru/ria
+Страница https://www.odnoklassniki.ru/ria содержит недостаточно слов (373 < 1000)
+Обработка URL: https://rutube.ru/channel/23469114/
+Сохранен документ #75: https://rutube.ru/channel/23469114/
+Обработка URL: https://x.com/rianru
+Страница https://x.com/rianru не содержит достаточного количества русского текста
+Обработка URL: https://x.com/riabreakingnews
+Страница https://x.com/riabreakingnews не содержит достаточного количества русского текста
+Обработка URL: https://invite.viber.com/?g2=AQAOuCQJzow8L0hQtsB3j3zzc7YMKEHijsslO3ZsCFmFcZGSed0OTOa0ruAXXZn6
+Страница https://invite.viber.com/?g2=AQAOuCQJzow8L0hQtsB3j3zzc7YMKEHijsslO3ZsCFmFcZGSed0OTOa0ruAXXZn6 не содержит достаточного количества русского текста
+Обработка URL: https://xn--c1acbl2abdlkab1og.xn--p1ai/
+Страница https://xn--c1acbl2abdlkab1og.xn--p1ai/ содержит недостаточно слов (406 < 1000)
+Обработка URL: https://radiosputnik.ru/
+Сохранен документ #76: https://radiosputnik.ru/
+Обработка URL: https://ria.ru/podcasts/
+Страница https://ria.ru/podcasts/ содержит недостаточно слов (832 < 1000)
+Обработка URL: https://ria.ru/life/
+Страница https://ria.ru/life/ содержит недостаточно слов (801 < 1000)
+Обработка URL: https://ria.ru/tags/
+Страница https://ria.ru/tags/ содержит недостаточно слов (768 < 1000)
+Обработка URL: https://ria.ru/specialprojects/
+Страница https://ria.ru/specialprojects/ содержит недостаточно слов (955 < 1000)
+Обработка URL: https://%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D1%81%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F.%D1%80%D1%84/advertising/
+Ошибка при загрузке https://%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D1%81%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F.%D1%80%D1%84/advertising/: encoding with 'idna' codec failed (UnicodeError: label empty or too long)
+Обработка URL: https://pressmia.ru
+Страница https://pressmia.ru содержит недостаточно слов (509 < 1000)
+Обработка URL: https://apps.apple.com/app/id1523036476
+Ошибка при загрузке https://apps.apple.com/app/id1523036476: 404 Client Error: Not Found for url: https://apps.apple.com/app/id1523036476
+Обработка URL: https://www.rustore.ru/catalog/app/ru.ria.ria
+Сохранен документ #77: https://www.rustore.ru/catalog/app/ru.ria.ria
+Обработка URL: https://apps.ria.ru/apk/ru.ria.ria-1.0.26-26-release.apk
+Страница https://apps.ria.ru/apk/ru.ria.ria-1.0.26-26-release.apk не содержит достаточного количества русского текста
+Обработка URL: https://ria.ru/export/rss2/archive/index.xml
+/Users/dariyazhukova/Desktop/PyCharmProjects/is-2026/task1/web_crawler.py:39: XMLParsedAsHTMLWarning: It looks like you're using an HTML parser to parse an XML document.
+
+Assuming this really is an XML document, what you're doing might work, but you should know that using an XML parser will be more reliable. To parse this document as XML, make sure you have the Python package 'lxml' installed, and pass the keyword argument `features="xml"` into the BeautifulSoup constructor.
+
+If you want or need to use an HTML parser on this document, you can make this warning go away by filtering it. To do that, run this code before calling the BeautifulSoup constructor:
+
+    from bs4 import XMLParsedAsHTMLWarning
+    import warnings
+
+    warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+
+  soup = BeautifulSoup(html_content, 'html.parser')
+Сохранен документ #78: https://ria.ru/export/rss2/archive/index.xml
+/Users/dariyazhukova/Desktop/PyCharmProjects/is-2026/task1/web_crawler.py:53: XMLParsedAsHTMLWarning: It looks like you're using an HTML parser to parse an XML document.
+
+Assuming this really is an XML document, what you're doing might work, but you should know that using an XML parser will be more reliable. To parse this document as XML, make sure you have the Python package 'lxml' installed, and pass the keyword argument `features="xml"` into the BeautifulSoup constructor.
+
+If you want or need to use an HTML parser on this document, you can make this warning go away by filtering it. To do that, run this code before calling the BeautifulSoup constructor:
+
+    from bs4 import XMLParsedAsHTMLWarning
+    import warnings
+
+    warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+
+  soup = BeautifulSoup(html_content, 'html.parser')
+Обработка URL: https://ria.ru/archive/
+Страница https://ria.ru/archive/ содержит недостаточно слов (974 < 1000)
+Обработка URL: https://xn--c1acbl2abdlkab1og.xn--p1ai/career/
+Страница https://xn--c1acbl2abdlkab1og.xn--p1ai/career/ содержит недостаточно слов (394 < 1000)
+Обработка URL: https://ria.ru/docs/about/copyright.html
+Сохранен документ #79: https://ria.ru/docs/about/copyright.html
+Обработка URL: https://ria.ru/docs/about/privacy_policy.html
+Сохранен документ #80: https://ria.ru/docs/about/privacy_policy.html
+Обработка URL: https://xn--c1acbl2abdlkab1og.xn--p1ai/contacts/?form
+Страница https://xn--c1acbl2abdlkab1og.xn--p1ai/contacts/?form содержит недостаточно слов (251 < 1000)
+Обработка URL: https://ria.ru/?modal-open=feedback
+Сохранен документ #81: https://ria.ru/?modal-open=feedback
+Обработка URL: https://ria.ru/files/rules/comments.html
+Сохранен документ #82: https://ria.ru/files/rules/comments.html
+Обработка URL: https://ria.ru/?modal=feedback
+Сохранен документ #83: https://ria.ru/?modal=feedback
+Обработка URL: https://ria.ru/lenta/
+Страница https://ria.ru/lenta/ содержит недостаточно слов (975 < 1000)
+Обработка URL: https://xn--c1acbl2abdlkab1og.xn--p1ai/contacts/
+Страница https://xn--c1acbl2abdlkab1og.xn--p1ai/contacts/ содержит недостаточно слов (251 < 1000)
+Обработка URL: https://ria.ru/search/?query=
+Страница https://ria.ru/search/?query= содержит недостаточно слов (701 < 1000)
+Обработка URL: https://www.mk.ru
+Сохранен документ #84: https://www.mk.ru
+Обработка URL: https://www.sportmk.ru/
+Сохранен документ #85: https://www.sportmk.ru/
+Обработка URL: https://avtovzglyad.ru
+Сохранен документ #86: https://avtovzglyad.ru
+Обработка URL: https://ohotniki.ru
+Сохранен документ #87: https://ohotniki.ru
+Обработка URL: https://womanhit.ru
+Сохранен документ #88: https://womanhit.ru
+Обработка URL: https://www.mk.ru/promokodi/
+Страница https://www.mk.ru/promokodi/ содержит недостаточно слов (663 < 1000)
+Обработка URL: https://www.mk.ru/pogoda/
+Страница https://www.mk.ru/pogoda/ содержит недостаточно слов (521 < 1000)
+Обработка URL: https://t.me/mk_ru
+Страница https://t.me/mk_ru не содержит достаточного количества русского текста
+Обработка URL: https://www.mk.ru/daily/newspaper/
+Сохранен документ #89: https://www.mk.ru/daily/newspaper/
+Обработка URL: https://www.mk.ru/subscription/
+Сохранен документ #90: https://www.mk.ru/subscription/
+Обработка URL: http://vk.com/mk_ru
+Страница http://vk.com/mk_ru содержит недостаточно слов (4 < 1000)
+Обработка URL: http://www.odnoklassniki.ru/mkomsomolets
+Сохранен документ #91: http://www.odnoklassniki.ru/mkomsomolets
+Обработка URL: https://www.mk.ru/telegram/
+Страница https://www.mk.ru/telegram/ содержит недостаточно слов (700 < 1000)
+Обработка URL: https://max.ru/mk
+Ошибка при загрузке https://max.ru/mk: 502 Server Error: Bad Gateway for url: https://max.ru/mk
+Обработка URL: https://dzen.ru/mk.ru
+Страница https://dzen.ru/mk.ru не содержит достаточного количества русского текста
+Обработка URL: https://rutube.ru/channel/23896695/
+Сохранен документ #92: https://rutube.ru/channel/23896695/
+Обработка URL: https://www.mk.ru/editorial/exclusive/?from=topmenu
+Сохранен документ #93: https://www.mk.ru/editorial/exclusive/?from=topmenu
+Обработка URL: https://www.mk.ru/politics/
+Ошибка при загрузке https://www.mk.ru/politics/: 404 Client Error: Not Found for url: https://www.mk.ru/politics/
+Обработка URL: https://www.mk.ru/economics/
+Сохранен документ #94: https://www.mk.ru/economics/
+Обработка URL: https://www.mk.ru/incident/
+Сохранен документ #95: https://www.mk.ru/incident/
+Обработка URL: https://www.mk.ru/sport/
+Сохранен документ #96: https://www.mk.ru/sport/
+Обработка URL: https://www.mk.ru/press-center/
+Сохранен документ #97: https://www.mk.ru/press-center/
+Обработка URL: https://www.mk.ru/social/
+Сохранен документ #98: https://www.mk.ru/social/
+Обработка URL: https://www.mk.ru/science/
+Сохранен документ #99: https://www.mk.ru/science/
+Обработка URL: https://www.mk.ru/culture/
+Сохранен документ #100: https://www.mk.ru/culture/
+
+Скачано 100 страниц
