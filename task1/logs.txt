@@ -1,358 +1,601 @@
 python task1/web_crawler.py https://ria.ru https://www.mk.ru/news/
 
 Обработка URL: https://ria.ru
-Сохранен документ #1: https://ria.ru
+Страница https://ria.ru содержит недостаточно слов (902 < 1000)
 Обработка URL: https://www.mk.ru/news/
-Сохранен документ #2: https://www.mk.ru/news/
-Обработка URL: https://ria.ru/
-Сохранен документ #3: https://ria.ru/
-Обработка URL: https://ru.wikipedia.org/wiki/%D0%A0%D0%98%D0%90_%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8
-Сохранен документ #4: https://ru.wikipedia.org/wiki/%D0%A0%D0%98%D0%90_%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8
-Обработка URL: https://twitter.com/rianru
-Страница https://twitter.com/rianru не содержит достаточного количества русского текста
-Обработка URL: https://vk.ru/ria
-Страница https://vk.ru/ria содержит недостаточно слов (3 < 1000)
-Обработка URL: https://ok.ru/ria
-Страница https://ok.ru/ria содержит недостаточно слов (373 < 1000)
-Обработка URL: https://www.youtube.com/user/rianovosti
-Ошибка при загрузке https://www.youtube.com/user/rianovosti: 404 Client Error: Not Found for url: https://www.youtube.com/user/rianovosti
-Обработка URL: https://flipboard.com/@rianovosti
-Страница https://flipboard.com/@rianovosti содержит недостаточно слов (256 < 1000)
-Обработка URL: https://zen.yandex.ru/ria
-Страница https://zen.yandex.ru/ria не содержит достаточного количества русского текста
-Обработка URL: https://twitter.com/riabreakingnews
-Страница https://twitter.com/riabreakingnews не содержит достаточного количества русского текста
-Обработка URL: https://invite.viber.com/?g2=AQAOuCQJzow8L0hQtsB3j3zzc7YMKEHijsslO3ZsCFmFcZGSed0OTOa0ruAXXZn6&lang=ru
-Страница https://invite.viber.com/?g2=AQAOuCQJzow8L0hQtsB3j3zzc7YMKEHijsslO3ZsCFmFcZGSed0OTOa0ruAXXZn6&lang=ru не содержит достаточного количества русского текста
-Обработка URL: https://tgclick.com/rian_ru
-Страница https://tgclick.com/rian_ru не содержит достаточного количества русского текста
-Обработка URL: https://yandex.ru/maps/org/rossiya_segodnya/1061985604/?ll=37.590466%2C55.737481&z=14
-Страница https://yandex.ru/maps/org/rossiya_segodnya/1061985604/?ll=37.590466%2C55.737481&z=14 содержит недостаточно слов (847 < 1000)
-Обработка URL: https://www.google.com/maps/place/%D0%A0%D0%98%D0%90+%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/@55.7374019,37.5881028,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54ba5ecf15a7f:0x2b9d63d783e6e919!8m2!3d55.7374019!4d37.5902915
-Страница https://www.google.com/maps/place/%D0%A0%D0%98%D0%90+%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/@55.7374019,37.5881028,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54ba5ecf15a7f:0x2b9d63d783e6e919!8m2!3d55.7374019!4d37.5902915 не содержит достаточного количества русского текста
-Обработка URL: https://news.google.com/publications/CAAqBwgKMNu67AEwn6QS?hl=ru&gl=RU&ceid=RU:ru
-Страница https://news.google.com/publications/CAAqBwgKMNu67AEwn6QS?hl=ru&gl=RU&ceid=RU:ru содержит недостаточно слов (38 < 1000)
-Обработка URL: https://ria.ru/politics/
-Страница https://ria.ru/politics/ содержит недостаточно слов (967 < 1000)
-Обработка URL: https://ria.ru/world/
-Сохранен документ #5: https://ria.ru/world/
-Обработка URL: https://ria.ru/economy/
-Сохранен документ #6: https://ria.ru/economy/
-Обработка URL: https://ria.ru/society/
-Сохранен документ #7: https://ria.ru/society/
-Обработка URL: https://ria.ru/incidents/
-Сохранен документ #8: https://ria.ru/incidents/
-Обработка URL: https://ria.ru/culture/
-Сохранен документ #9: https://ria.ru/culture/
-Обработка URL: https://ria.ru/tourism/
-Сохранен документ #10: https://ria.ru/tourism/
-Обработка URL: https://ria.ru/science/
-Сохранен документ #11: https://ria.ru/science/
-Обработка URL: https://ria.ru/defense_safety/
-Сохранен документ #12: https://ria.ru/defense_safety/
-Обработка URL: https://ria.ru/religion/
-Сохранен документ #13: https://ria.ru/religion/
-Обработка URL: https://ria.ru/sport/
-Сохранен документ #14: https://ria.ru/sport/
-Обработка URL: https://ria.ru/recipe/
-Страница https://ria.ru/recipe/ содержит недостаточно слов (997 < 1000)
-Обработка URL: https://realty.ria.ru/
-Сохранен документ #15: https://realty.ria.ru/
-Обработка URL: https://ria.ru/20260321/tramp-2082089165.html
-Сохранен документ #16: https://ria.ru/20260321/tramp-2082089165.html
-Обработка URL: https://ria.ru/20260320/tramp-2082082591.html
-Страница https://ria.ru/20260320/tramp-2082082591.html содержит недостаточно слов (993 < 1000)
-Обработка URL: https://ria.ru/20260320/evrosoyuz-2082059888.html
-Страница https://ria.ru/20260320/evrosoyuz-2082059888.html содержит недостаточно слов (996 < 1000)
-Обработка URL: https://ria.ru/20260320/putin-2082046020.html
-Страница https://ria.ru/20260320/putin-2082046020.html содержит недостаточно слов (906 < 1000)
-Обработка URL: https://ria.ru/20260320/vsu-2082051329.html
-Сохранен документ #17: https://ria.ru/20260320/vsu-2082051329.html
-Обработка URL: https://ria.ru/20260320/moldaviya-2082070334.html
-Сохранен документ #18: https://ria.ru/20260320/moldaviya-2082070334.html
-Обработка URL: https://ria.ru/20260320/kontakty-2081927016.html
-Сохранен документ #19: https://ria.ru/20260320/kontakty-2081927016.html
-Обработка URL: https://ria.ru/20260320/stavka-2081931391.html
-Сохранен документ #20: https://ria.ru/20260320/stavka-2081931391.html
-Обработка URL: https://ria.ru/20260320/tanker-2081982184.html
-Сохранен документ #21: https://ria.ru/20260320/tanker-2081982184.html
-Обработка URL: https://ria.ru/20260320/monde-2081979365.html
-Сохранен документ #22: https://ria.ru/20260320/monde-2081979365.html
-Обработка URL: https://ria.ru/20260320/vsu-2082065425.html
-Страница https://ria.ru/20260320/vsu-2082065425.html содержит недостаточно слов (998 < 1000)
-Обработка URL: https://ria.ru/author/Strelnikov_Kirill/
-Страница https://ria.ru/author/Strelnikov_Kirill/ содержит недостаточно слов (893 < 1000)
-Обработка URL: https://ria.ru/20260320/iran-2081859048.html
-Сохранен документ #23: https://ria.ru/20260320/iran-2081859048.html
-Обработка URL: https://ria.ru/author/kosyrev/
-Сохранен документ #24: https://ria.ru/author/kosyrev/
-Обработка URL: https://ria.ru/20260320/otkaz-2081859912.html
-Сохранен документ #25: https://ria.ru/20260320/otkaz-2081859912.html
-Обработка URL: https://ria.ru/author/savchuk/
-Страница https://ria.ru/author/savchuk/ содержит недостаточно слов (815 < 1000)
-Обработка URL: https://ria.ru/20260320/evropa-2081812319.html
-Сохранен документ #26: https://ria.ru/20260320/evropa-2081812319.html
-Обработка URL: https://ria.ru/longread/
-Сохранен документ #27: https://ria.ru/longread/
-Обработка URL: https://ria.ru/spetsialnaya-voennaya-operatsiya-na-ukraine/
-Сохранен документ #28: https://ria.ru/spetsialnaya-voennaya-operatsiya-na-ukraine/
-Обработка URL: https://ria.ru/ria-novosti-analitika/
-Сохранен документ #29: https://ria.ru/ria-novosti-analitika/
-Обработка URL: https://ria.ru/photolents/
-Сохранен документ #30: https://ria.ru/photolents/
-Обработка URL: https://ria.ru/video/
-Страница https://ria.ru/video/ содержит недостаточно слов (862 < 1000)
-Обработка URL: https://ria.ru/infografika/
-Сохранен документ #31: https://ria.ru/infografika/
-Обработка URL: https://ria.ru/nadezhnye-lyudi/
-Сохранен документ #32: https://ria.ru/nadezhnye-lyudi/
-Обработка URL: https://ria.ru/victorina/
-Страница https://ria.ru/victorina/ содержит недостаточно слов (822 < 1000)
-Обработка URL: https://ria.ru/polls/
-Страница https://ria.ru/polls/ содержит недостаточно слов (865 < 1000)
-Обработка URL: https://ria.ru/20260320/evropa-2081507520.html
-Сохранен документ #33: https://ria.ru/20260320/evropa-2081507520.html
-Обработка URL: https://ria.ru/20260320/norris-2082009896.html
-Сохранен документ #34: https://ria.ru/20260320/norris-2082009896.html
-Обработка URL: https://ria.ru/20260320/zakharova-2082038850.html
-Сохранен документ #35: https://ria.ru/20260320/zakharova-2082038850.html
-Обработка URL: https://ria.ru/20260320/irak-2081772486.html
-Сохранен документ #36: https://ria.ru/20260320/irak-2081772486.html
-Обработка URL: https://ria.ru/20260320/krokusy-2082018591.html
-Страница https://ria.ru/20260320/krokusy-2082018591.html содержит недостаточно слов (963 < 1000)
-Обработка URL: https://ria.ru/20260320/domodedovo-2081915698.html
-Сохранен документ #37: https://ria.ru/20260320/domodedovo-2081915698.html
-Обработка URL: https://ria.ru/20260320/iran-2081780167.html
-Сохранен документ #38: https://ria.ru/20260320/iran-2081780167.html
-Обработка URL: https://ria.ru/20260320/lerchek-2082046122.html
-Сохранен документ #39: https://ria.ru/20260320/lerchek-2082046122.html
-Обработка URL: https://ria.ru/20260320/proliv-2082022087.html
-Сохранен документ #40: https://ria.ru/20260320/proliv-2082022087.html
-Обработка URL: https://ria.ru/20260320/uraza-bayram-2081989098.html
-Страница https://ria.ru/20260320/uraza-bayram-2081989098.html содержит недостаточно слов (888 < 1000)
-Обработка URL: https://ria.ru/20260321/tramp-2082086801.html?rcmd_alg=slotter
-Сохранен документ #41: https://ria.ru/20260321/tramp-2082086801.html?rcmd_alg=slotter
-Обработка URL: https://ria.ru/20260320/galitskiy-2082085792.html?rcmd_alg=slotter
-Сохранен документ #42: https://ria.ru/20260320/galitskiy-2082085792.html?rcmd_alg=slotter
-Обработка URL: https://ria.ru/20220622/spetsoperatsiya-1795199102.html
-Страница https://ria.ru/20220622/spetsoperatsiya-1795199102.html содержит недостаточно слов (4 < 1000)
-Обработка URL: https://ria.ru/20260320/samolet-2081990186.html
-Страница https://ria.ru/20260320/samolet-2081990186.html содержит недостаточно слов (964 < 1000)
-Обработка URL: https://ria.ru/20260320/putin-2081985713.html
-Страница https://ria.ru/20260320/putin-2081985713.html содержит недостаточно слов (972 < 1000)
-Обработка URL: https://ria.ru/20260320/moda-2081820403.html
-Сохранен документ #43: https://ria.ru/20260320/moda-2081820403.html
-Обработка URL: https://ria.ru/20260320/tramp-2082004119.html
-Сохранен документ #44: https://ria.ru/20260320/tramp-2082004119.html
-Обработка URL: https://ria.ru/20260320/lukashenko-2081944725.html
-Сохранен документ #45: https://ria.ru/20260320/lukashenko-2081944725.html
-Обработка URL: https://ria.ru/20260319/svo-2081184257.html
-Сохранен документ #46: https://ria.ru/20260319/svo-2081184257.html
-Обработка URL: https://ria.ru/20260319/polsha-2081388642.html
-Сохранен документ #47: https://ria.ru/20260319/polsha-2081388642.html
-Обработка URL: https://ria.ru/20260319/moldaviya-2081484895.html
-Сохранен документ #48: https://ria.ru/20260319/moldaviya-2081484895.html
-Обработка URL: https://ria.ru/20260319/kriminal-2081389377.html
-Сохранен документ #49: https://ria.ru/20260319/kriminal-2081389377.html
-Обработка URL: https://ria.ru/author/bavyrin_dmitriy/
-Страница https://ria.ru/author/bavyrin_dmitriy/ содержит недостаточно слов (851 < 1000)
-Обработка URL: https://ria.ru/20260319/senator-2081512663.html
-Сохранен документ #50: https://ria.ru/20260319/senator-2081512663.html
-Обработка URL: https://ria.ru/author/karaeva_elena/
-Страница https://ria.ru/author/karaeva_elena/ содержит недостаточно слов (819 < 1000)
-Обработка URL: https://ria.ru/20260319/polsha-2081548589.html
-Сохранен документ #51: https://ria.ru/20260319/polsha-2081548589.html
-Обработка URL: https://ria.ru/author/david_narmaniya/
-Страница https://ria.ru/author/david_narmaniya/ содержит недостаточно слов (829 < 1000)
-Обработка URL: https://ria.ru/20260319/ssha-2081556480.html
-Сохранен документ #52: https://ria.ru/20260319/ssha-2081556480.html
-Обработка URL: https://ria.ru/20260318/evropa-2081316232.html
-Сохранен документ #53: https://ria.ru/20260318/evropa-2081316232.html
-Обработка URL: https://ria.ru/football/
-Страница https://ria.ru/football/ содержит недостаточно слов (942 < 1000)
-Обработка URL: https://ria.ru/20260320/talalaev-2082054875.html
-Сохранен документ #54: https://ria.ru/20260320/talalaev-2082054875.html
-Обработка URL: https://ria.ru/20260320/khokkey-2082077476.html
-Сохранен документ #55: https://ria.ru/20260320/khokkey-2082077476.html
-Обработка URL: https://ria.ru/20260320/voleybol-2082073980.html
-Страница https://ria.ru/20260320/voleybol-2082073980.html содержит недостаточно слов (969 < 1000)
-Обработка URL: https://ria.ru/20260320/futbol-2082076857.html
-Страница https://ria.ru/20260320/futbol-2082076857.html содержит недостаточно слов (968 < 1000)
-Обработка URL: https://ria.ru/20260320/skalolazanie-2082073136.html
-Сохранен документ #56: https://ria.ru/20260320/skalolazanie-2082073136.html
-Обработка URL: https://ria.ru/hockey/
-Страница https://ria.ru/hockey/ содержит недостаточно слов (884 < 1000)
-Обработка URL: https://ria.ru/20260320/bilyalov-2082072400.html
-Сохранен документ #57: https://ria.ru/20260320/bilyalov-2082072400.html
-Обработка URL: https://ria.ru/20260320/rozhkov-2082061949.html
-Сохранен документ #58: https://ria.ru/20260320/rozhkov-2082061949.html
-Обработка URL: https://ria.ru/20260320/enes-2082058969.html
-Сохранен документ #59: https://ria.ru/20260320/enes-2082058969.html
-Обработка URL: https://ria.ru/20260320/pkr-2082054267.html
-Сохранен документ #60: https://ria.ru/20260320/pkr-2082054267.html
-Обработка URL: https://ria.ru/20260228/izrail-iran-prichiny-vojny-2023542052.html
-Сохранен документ #61: https://ria.ru/20260228/izrail-iran-prichiny-vojny-2023542052.html
-Обработка URL: https://ria.ru/20260320/uraza-bayram-2026-2081922484.html
-Сохранен документ #62: https://ria.ru/20260320/uraza-bayram-2026-2081922484.html
-Обработка URL: https://ria.ru/20260319/den-vesennego-ravnodenstviya-2026-2081825707.html
-Сохранен документ #63: https://ria.ru/20260319/den-vesennego-ravnodenstviya-2026-2081825707.html
-Обработка URL: https://ria.ru/20251230/pravoslavnyj-kalendar-daty-prazdnikov-2065611676.html
-Сохранен документ #64: https://ria.ru/20251230/pravoslavnyj-kalendar-daty-prazdnikov-2065611676.html
-Обработка URL: https://ria.ru/20260122/majskie-prazdniki-2026-2069531375.html
-Сохранен документ #65: https://ria.ru/20260122/majskie-prazdniki-2026-2069531375.html
-Обработка URL: https://ria.ru/pravo/lgoty-pensioneram/
-Сохранен документ #66: https://ria.ru/pravo/lgoty-pensioneram/
-Обработка URL: https://ria.ru/20251226/dolgi-za-zhkkh-2064911751.html
-Сохранен документ #67: https://ria.ru/20251226/dolgi-za-zhkkh-2064911751.html
-Обработка URL: https://ria.ru/person/chak-norris-karlos-norris/
-Сохранен документ #68: https://ria.ru/person/chak-norris-karlos-norris/
-Обработка URL: https://ria.ru/20250824/klyuchevaya_stavka-1962773695.html
-Сохранен документ #69: https://ria.ru/20250824/klyuchevaya_stavka-1962773695.html
-Обработка URL: https://ria.ru/obrazovanie/izmeneniya-oge-2026
-Сохранен документ #70: https://ria.ru/obrazovanie/izmeneniya-oge-2026
-Обработка URL: https://ria.ru/posobiya-i-lgoty/vyplaty-i-lgoty-uchastnikam-svo/
-Сохранен документ #71: https://ria.ru/posobiya-i-lgoty/vyplaty-i-lgoty-uchastnikam-svo/
-Обработка URL: https://ria.ru/20250620/matkapital-1733022511.html
-Сохранен документ #72: https://ria.ru/20250620/matkapital-1733022511.html
-Обработка URL: https://ria.ru/person/
-Страница https://ria.ru/person/ содержит недостаточно слов (702 < 1000)
-Обработка URL: https://ria.ru/20260219/velikij-post-2026-2075607793.html
-Сохранен документ #73: https://ria.ru/20260219/velikij-post-2026-2075607793.html
-Обработка URL: https://ria.ru/finansy/indeksatsiya-pensiy
-Сохранен документ #74: https://ria.ru/finansy/indeksatsiya-pensiy
-Обработка URL: https://max.ru/ria
-Страница https://max.ru/ria содержит недостаточно слов (35 < 1000)
-Обработка URL: https://dzen.ru/ria?invite=1
-Страница https://dzen.ru/ria?invite=1 не содержит достаточного количества русского текста
-Обработка URL: https://www.odnoklassniki.ru/ria
-Страница https://www.odnoklassniki.ru/ria содержит недостаточно слов (373 < 1000)
-Обработка URL: https://rutube.ru/channel/23469114/
-Сохранен документ #75: https://rutube.ru/channel/23469114/
-Обработка URL: https://x.com/rianru
-Страница https://x.com/rianru не содержит достаточного количества русского текста
-Обработка URL: https://x.com/riabreakingnews
-Страница https://x.com/riabreakingnews не содержит достаточного количества русского текста
-Обработка URL: https://invite.viber.com/?g2=AQAOuCQJzow8L0hQtsB3j3zzc7YMKEHijsslO3ZsCFmFcZGSed0OTOa0ruAXXZn6
-Страница https://invite.viber.com/?g2=AQAOuCQJzow8L0hQtsB3j3zzc7YMKEHijsslO3ZsCFmFcZGSed0OTOa0ruAXXZn6 не содержит достаточного количества русского текста
-Обработка URL: https://xn--c1acbl2abdlkab1og.xn--p1ai/
-Страница https://xn--c1acbl2abdlkab1og.xn--p1ai/ содержит недостаточно слов (406 < 1000)
-Обработка URL: https://radiosputnik.ru/
-Сохранен документ #76: https://radiosputnik.ru/
-Обработка URL: https://ria.ru/podcasts/
-Страница https://ria.ru/podcasts/ содержит недостаточно слов (832 < 1000)
-Обработка URL: https://ria.ru/life/
-Страница https://ria.ru/life/ содержит недостаточно слов (801 < 1000)
-Обработка URL: https://ria.ru/tags/
-Страница https://ria.ru/tags/ содержит недостаточно слов (768 < 1000)
-Обработка URL: https://ria.ru/specialprojects/
-Страница https://ria.ru/specialprojects/ содержит недостаточно слов (955 < 1000)
-Обработка URL: https://%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D1%81%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F.%D1%80%D1%84/advertising/
-Ошибка при загрузке https://%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D1%81%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F.%D1%80%D1%84/advertising/: encoding with 'idna' codec failed (UnicodeError: label empty or too long)
-Обработка URL: https://pressmia.ru
-Страница https://pressmia.ru содержит недостаточно слов (509 < 1000)
-Обработка URL: https://apps.apple.com/app/id1523036476
-Ошибка при загрузке https://apps.apple.com/app/id1523036476: 404 Client Error: Not Found for url: https://apps.apple.com/app/id1523036476
-Обработка URL: https://www.rustore.ru/catalog/app/ru.ria.ria
-Сохранен документ #77: https://www.rustore.ru/catalog/app/ru.ria.ria
-Обработка URL: https://apps.ria.ru/apk/ru.ria.ria-1.0.26-26-release.apk
-Страница https://apps.ria.ru/apk/ru.ria.ria-1.0.26-26-release.apk не содержит достаточного количества русского текста
-Обработка URL: https://ria.ru/export/rss2/archive/index.xml
-/Users/dariyazhukova/Desktop/PyCharmProjects/is-2026/task1/web_crawler.py:39: XMLParsedAsHTMLWarning: It looks like you're using an HTML parser to parse an XML document.
-
-Assuming this really is an XML document, what you're doing might work, but you should know that using an XML parser will be more reliable. To parse this document as XML, make sure you have the Python package 'lxml' installed, and pass the keyword argument `features="xml"` into the BeautifulSoup constructor.
-
-If you want or need to use an HTML parser on this document, you can make this warning go away by filtering it. To do that, run this code before calling the BeautifulSoup constructor:
-
-    from bs4 import XMLParsedAsHTMLWarning
-    import warnings
-
-    warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
-
-  soup = BeautifulSoup(html_content, 'html.parser')
-Сохранен документ #78: https://ria.ru/export/rss2/archive/index.xml
-/Users/dariyazhukova/Desktop/PyCharmProjects/is-2026/task1/web_crawler.py:53: XMLParsedAsHTMLWarning: It looks like you're using an HTML parser to parse an XML document.
-
-Assuming this really is an XML document, what you're doing might work, but you should know that using an XML parser will be more reliable. To parse this document as XML, make sure you have the Python package 'lxml' installed, and pass the keyword argument `features="xml"` into the BeautifulSoup constructor.
-
-If you want or need to use an HTML parser on this document, you can make this warning go away by filtering it. To do that, run this code before calling the BeautifulSoup constructor:
-
-    from bs4 import XMLParsedAsHTMLWarning
-    import warnings
-
-    warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
-
-  soup = BeautifulSoup(html_content, 'html.parser')
-Обработка URL: https://ria.ru/archive/
-Страница https://ria.ru/archive/ содержит недостаточно слов (974 < 1000)
-Обработка URL: https://xn--c1acbl2abdlkab1og.xn--p1ai/career/
-Страница https://xn--c1acbl2abdlkab1og.xn--p1ai/career/ содержит недостаточно слов (394 < 1000)
-Обработка URL: https://ria.ru/docs/about/copyright.html
-Сохранен документ #79: https://ria.ru/docs/about/copyright.html
-Обработка URL: https://ria.ru/docs/about/privacy_policy.html
-Сохранен документ #80: https://ria.ru/docs/about/privacy_policy.html
-Обработка URL: https://xn--c1acbl2abdlkab1og.xn--p1ai/contacts/?form
-Страница https://xn--c1acbl2abdlkab1og.xn--p1ai/contacts/?form содержит недостаточно слов (251 < 1000)
-Обработка URL: https://ria.ru/?modal-open=feedback
-Сохранен документ #81: https://ria.ru/?modal-open=feedback
-Обработка URL: https://ria.ru/files/rules/comments.html
-Сохранен документ #82: https://ria.ru/files/rules/comments.html
-Обработка URL: https://ria.ru/?modal=feedback
-Сохранен документ #83: https://ria.ru/?modal=feedback
-Обработка URL: https://ria.ru/lenta/
-Страница https://ria.ru/lenta/ содержит недостаточно слов (975 < 1000)
-Обработка URL: https://xn--c1acbl2abdlkab1og.xn--p1ai/contacts/
-Страница https://xn--c1acbl2abdlkab1og.xn--p1ai/contacts/ содержит недостаточно слов (251 < 1000)
-Обработка URL: https://ria.ru/search/?query=
-Страница https://ria.ru/search/?query= содержит недостаточно слов (701 < 1000)
+Сохранен документ #1: https://www.mk.ru/news/
 Обработка URL: https://www.mk.ru
-Сохранен документ #84: https://www.mk.ru
+Сохранен документ #2: https://www.mk.ru
 Обработка URL: https://www.sportmk.ru/
-Сохранен документ #85: https://www.sportmk.ru/
+Страница https://www.sportmk.ru/ содержит недостаточно слов (835 < 1000)
 Обработка URL: https://avtovzglyad.ru
-Сохранен документ #86: https://avtovzglyad.ru
+Сохранен документ #3: https://avtovzglyad.ru
 Обработка URL: https://ohotniki.ru
-Сохранен документ #87: https://ohotniki.ru
+Сохранен документ #4: https://ohotniki.ru
 Обработка URL: https://womanhit.ru
-Сохранен документ #88: https://womanhit.ru
+Страница https://womanhit.ru содержит недостаточно слов (964 < 1000)
 Обработка URL: https://www.mk.ru/promokodi/
-Страница https://www.mk.ru/promokodi/ содержит недостаточно слов (663 < 1000)
+Страница https://www.mk.ru/promokodi/ содержит недостаточно слов (689 < 1000)
 Обработка URL: https://www.mk.ru/pogoda/
-Страница https://www.mk.ru/pogoda/ содержит недостаточно слов (521 < 1000)
+Страница https://www.mk.ru/pogoda/ содержит недостаточно слов (11 < 1000)
 Обработка URL: https://t.me/mk_ru
-Страница https://t.me/mk_ru не содержит достаточного количества русского текста
+Страница https://t.me/mk_ru содержит недостаточно слов (39 < 1000)
 Обработка URL: https://www.mk.ru/daily/newspaper/
-Сохранен документ #89: https://www.mk.ru/daily/newspaper/
+Сохранен документ #5: https://www.mk.ru/daily/newspaper/
 Обработка URL: https://www.mk.ru/subscription/
-Сохранен документ #90: https://www.mk.ru/subscription/
+Сохранен документ #6: https://www.mk.ru/subscription/
 Обработка URL: http://vk.com/mk_ru
 Страница http://vk.com/mk_ru содержит недостаточно слов (4 < 1000)
 Обработка URL: http://www.odnoklassniki.ru/mkomsomolets
-Сохранен документ #91: http://www.odnoklassniki.ru/mkomsomolets
+Сохранен документ #7: http://www.odnoklassniki.ru/mkomsomolets
 Обработка URL: https://www.mk.ru/telegram/
-Страница https://www.mk.ru/telegram/ содержит недостаточно слов (700 < 1000)
+Страница https://www.mk.ru/telegram/ содержит недостаточно слов (160 < 1000)
 Обработка URL: https://max.ru/mk
-Ошибка при загрузке https://max.ru/mk: 502 Server Error: Bad Gateway for url: https://max.ru/mk
+Страница https://max.ru/mk содержит недостаточно слов (47 < 1000)
 Обработка URL: https://dzen.ru/mk.ru
 Страница https://dzen.ru/mk.ru не содержит достаточного количества русского текста
 Обработка URL: https://rutube.ru/channel/23896695/
-Сохранен документ #92: https://rutube.ru/channel/23896695/
+Сохранен документ #8: https://rutube.ru/channel/23896695/
 Обработка URL: https://www.mk.ru/editorial/exclusive/?from=topmenu
-Сохранен документ #93: https://www.mk.ru/editorial/exclusive/?from=topmenu
+Сохранен документ #9: https://www.mk.ru/editorial/exclusive/?from=topmenu
 Обработка URL: https://www.mk.ru/politics/
 Ошибка при загрузке https://www.mk.ru/politics/: 404 Client Error: Not Found for url: https://www.mk.ru/politics/
 Обработка URL: https://www.mk.ru/economics/
-Сохранен документ #94: https://www.mk.ru/economics/
+Сохранен документ #10: https://www.mk.ru/economics/
 Обработка URL: https://www.mk.ru/incident/
-Сохранен документ #95: https://www.mk.ru/incident/
+Сохранен документ #11: https://www.mk.ru/incident/
 Обработка URL: https://www.mk.ru/sport/
-Сохранен документ #96: https://www.mk.ru/sport/
+Сохранен документ #12: https://www.mk.ru/sport/
 Обработка URL: https://www.mk.ru/press-center/
-Сохранен документ #97: https://www.mk.ru/press-center/
+Сохранен документ #13: https://www.mk.ru/press-center/
 Обработка URL: https://www.mk.ru/social/
-Сохранен документ #98: https://www.mk.ru/social/
+Сохранен документ #14: https://www.mk.ru/social/
 Обработка URL: https://www.mk.ru/science/
-Сохранен документ #99: https://www.mk.ru/science/
+Сохранен документ #15: https://www.mk.ru/science/
 Обработка URL: https://www.mk.ru/culture/
-Сохранен документ #100: https://www.mk.ru/culture/
+Сохранен документ #16: https://www.mk.ru/culture/
+Обработка URL: https://www.mk.ru/realestate/
+Сохранен документ #17: https://www.mk.ru/realestate/
+Обработка URL: https://www.mk.ru/auto/
+Сохранен документ #18: https://www.mk.ru/auto/
+Обработка URL: https://www.mk.ru/moscow/
+Сохранен документ #19: https://www.mk.ru/moscow/
+Обработка URL: https://www.mk-mosobl.ru/
+Сохранен документ #20: https://www.mk-mosobl.ru/
+Обработка URL: https://www.mk.ru/photo/
+Страница https://www.mk.ru/photo/ содержит недостаточно слов (602 < 1000)
+Обработка URL: https://www.mk.ru/video/
+Страница https://www.mk.ru/video/ содержит недостаточно слов (688 < 1000)
+Обработка URL: https://www.mk.ru/stories/daty/
+Страница https://www.mk.ru/stories/daty/ содержит недостаточно слов (635 < 1000)
+Обработка URL: https://www.mk.ru/nationalprojects/
+Сохранен документ #21: https://www.mk.ru/nationalprojects/
+Обработка URL: https://www.mk.ru/stories/
+Сохранен документ #22: https://www.mk.ru/stories/
+Обработка URL: https://www.mk.ru/politics/2026/03/23/v-irane-zaintrigovali-mir-soobshheniyami-o-gotovyashhikhsya-syurprizakh-dlya-trampa.html
+Страница https://www.mk.ru/politics/2026/03/23/v-irane-zaintrigovali-mir-soobshheniyami-o-gotovyashhikhsya-syurprizakh-dlya-trampa.html содержит недостаточно слов (692 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/policiya-predupredila-ob-opasnosti-umnykh-kolonok-mogut-shpionit.html
+Сохранен документ #23: https://www.mk.ru/social/2026/03/23/policiya-predupredila-ob-opasnosti-umnykh-kolonok-mogut-shpionit.html
+Обработка URL: https://www.mk.ru/politics/2026/03/23/na-ukraine-zakhoteli-uvelichit-shtrafy-dlya-narushiteley-yazykovogo-zakona.html
+Страница https://www.mk.ru/politics/2026/03/23/na-ukraine-zakhoteli-uvelichit-shtrafy-dlya-narushiteley-yazykovogo-zakona.html содержит недостаточно слов (594 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/metallurgi-i-energetiki-professionaliteta-nachinayut-izuchat-ii.html
+Страница https://www.mk.ru/social/2026/03/23/metallurgi-i-energetiki-professionaliteta-nachinayut-izuchat-ii.html содержит недостаточно слов (920 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/shest-chelovek-gospitalizirovany-posle-dtp-s-avtobusom-na-mkad.html
+Страница https://www.mk.ru/incident/2026/03/23/shest-chelovek-gospitalizirovany-posle-dtp-s-avtobusom-na-mkad.html содержит недостаточно слов (427 < 1000)
+Обработка URL: https://www.mk.ru/auto/2026/03/20/pochemu-rossiyskie-voditeli-aktivno-reanimiruyut-drevnie-mashiny.html?from=news6
+Страница https://www.mk.ru/auto/2026/03/20/pochemu-rossiyskie-voditeli-aktivno-reanimiruyut-drevnie-mashiny.html?from=news6 содержит недостаточно слов (476 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/21/ot-skrytykh-torfyanykh-pozharov-do-nezakonnykh-rubok-bespilotniki-reshayut-klyuchevye-zadachi-lesnoy-okhrany.html?from=news7
+Сохранен документ #24: https://www.mk.ru/social/2026/03/21/ot-skrytykh-torfyanykh-pozharov-do-nezakonnykh-rubok-bespilotniki-reshayut-klyuchevye-zadachi-lesnoy-okhrany.html?from=news7
+Обработка URL: https://www.mk.ru/politics/2026/03/23/opublikovana-zapis-s-molbami-dispetchera-pered-tragediey-s-samolyotom-v-nyuyorke.html
+Страница https://www.mk.ru/politics/2026/03/23/opublikovana-zapis-s-molbami-dispetchera-pered-tragediey-s-samolyotom-v-nyuyorke.html содержит недостаточно слов (536 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/arestovany-dvoe-moshennikov-uchastvovavshie-v-ubiystve-moskvichki-futbolistom-sekachom.html
+Страница https://www.mk.ru/incident/2026/03/23/arestovany-dvoe-moshennikov-uchastvovavshie-v-ubiystve-moskvichki-futbolistom-sekachom.html содержит недостаточно слов (446 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/v-ssha-s-proshlogo-goda-nachali-tainstvenno-propadat-uchenye-iz-odnoy-otrasli.html
+Страница https://www.mk.ru/incident/2026/03/23/v-ssha-s-proshlogo-goda-nachali-tainstvenno-propadat-uchenye-iz-odnoy-otrasli.html содержит недостаточно слов (690 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/careubiyca-soyuznogo-znacheniya-kak-nagradili-v-sssr-uchastnikov-pokusheniya-na-imperatora.html
+Сохранен документ #25: https://www.mk.ru/social/2026/03/23/careubiyca-soyuznogo-znacheniya-kak-nagradili-v-sssr-uchastnikov-pokusheniya-na-imperatora.html
+Обработка URL: https://www.mk.ru/social/2026/03/23/sinoptik-rasskazal-kakim-budet-v-moskve-leto.html
+Страница https://www.mk.ru/social/2026/03/23/sinoptik-rasskazal-kakim-budet-v-moskve-leto.html содержит недостаточно слов (529 < 1000)
+Обработка URL: https://www.mk.ru/science/2026/03/23/raskryta-tayna-genialnosti-eynshteyna-spustya-70-let-posle-ego-smerti.html
+Сохранен документ #26: https://www.mk.ru/science/2026/03/23/raskryta-tayna-genialnosti-eynshteyna-spustya-70-let-posle-ego-smerti.html
+Обработка URL: https://www.mk.ru/mosobl/2026/03/23/v-poliklinike-zhk-tomilino-park-mozhno-budet-proyti-uglublennuyu-dispanserizaciyu.html
+Страница https://www.mk.ru/mosobl/2026/03/23/v-poliklinike-zhk-tomilino-park-mozhno-budet-proyti-uglublennuyu-dispanserizaciyu.html содержит недостаточно слов (586 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/moloduyu-rossiyanku-nashli-mertvoy-v-gostinice-v-gruzii.html
+Страница https://www.mk.ru/incident/2026/03/23/moloduyu-rossiyanku-nashli-mertvoy-v-gostinice-v-gruzii.html содержит недостаточно слов (574 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/plany-ukrainy-ne-sovpali-s-zapadnoy-logikoy-voennoy-pomoshhi.html
+Страница https://www.mk.ru/politics/2026/03/23/plany-ukrainy-ne-sovpali-s-zapadnoy-logikoy-voennoy-pomoshhi.html содержит недостаточно слов (505 < 1000)
+Обработка URL: https://www.mk.ru/science/2026/03/23/v-krasnodarskom-krae-nashli-businy-iz-rakovin-izgotovlennye-desyat-tysyacheletiy-nazad.html
+Страница https://www.mk.ru/science/2026/03/23/v-krasnodarskom-krae-nashli-businy-iz-rakovin-izgotovlennye-desyat-tysyacheletiy-nazad.html содержит недостаточно слов (694 < 1000)
+Обработка URL: https://www.mk.ru/realestate/2026/03/23/za-pyat-let-srednyaya-ploshhad-prodannykh-kvartir-sokratilas-na-4-kvadrata.html
+Сохранен документ #27: https://www.mk.ru/realestate/2026/03/23/za-pyat-let-srednyaya-ploshhad-prodannykh-kvartir-sokratilas-na-4-kvadrata.html
+Обработка URL: https://www.mk.ru/mosobl/2026/03/23/v-podmoskove-zapustili-novyy-uchastok-yula-ot-oktyabrskogo-do-egorevskogo-shosse.html
+Страница https://www.mk.ru/mosobl/2026/03/23/v-podmoskove-zapustili-novyy-uchastok-yula-ot-oktyabrskogo-do-egorevskogo-shosse.html содержит недостаточно слов (598 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/v-moskve-snizhaetsya-chislo-podrostkovykh-suicidov-no-rastet-smertnost-ot-nikh.html
+Страница https://www.mk.ru/incident/2026/03/23/v-moskve-snizhaetsya-chislo-podrostkovykh-suicidov-no-rastet-smertnost-ot-nikh.html содержит недостаточно слов (478 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/zhenshhina-pogibla-pri-stolknovenii-poezda-i-avtomobilya.html
+Страница https://www.mk.ru/incident/2026/03/23/zhenshhina-pogibla-pri-stolknovenii-poezda-i-avtomobilya.html содержит недостаточно слов (488 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/v-peterburge-prostilis-s-zhenoy-aktera-olega-basilashvili-a-v-essentukakh-kot-obestochil-polovinu-goroda-zabravshis-na-podstanciyu-kartina-dnya-v-regionakh-rossii-glazami-mk.html
+Страница https://www.mk.ru/social/2026/03/23/v-peterburge-prostilis-s-zhenoy-aktera-olega-basilashvili-a-v-essentukakh-kot-obestochil-polovinu-goroda-zabravshis-na-podstanciyu-kartina-dnya-v-regionakh-rossii-glazami-mk.html содержит недостаточно слов (745 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/prezident-ssha-zayavil-o-smene-rezhima-v-irane.html
+Страница https://www.mk.ru/politics/2026/03/23/prezident-ssha-zayavil-o-smene-rezhima-v-irane.html содержит недостаточно слов (748 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/na-voennom-sklade-v-yuzhnoy-chasti-irana-proizoshel-silnyy-vzryv.html
+Страница https://www.mk.ru/politics/2026/03/23/na-voennom-sklade-v-yuzhnoy-chasti-irana-proizoshel-silnyy-vzryv.html содержит недостаточно слов (565 < 1000)
+Обработка URL: https://www.mk.ru/realestate/2026/03/23/proshhay-odnushka-v-moskve-prodayut-vse-menshe-odnushek-a-ceny-na-nikh-rastut.html
+Сохранен документ #28: https://www.mk.ru/realestate/2026/03/23/proshhay-odnushka-v-moskve-prodayut-vse-menshe-odnushek-a-ceny-na-nikh-rastut.html
+Обработка URL: https://www.mk.ru/culture/2026/03/23/svyazannye-istoriey-teatr-vsevoloda-shilovskogo-pokazhet-osobuyu-programmu-ko-dnyu-teatra.html
+Страница https://www.mk.ru/culture/2026/03/23/svyazannye-istoriey-teatr-vsevoloda-shilovskogo-pokazhet-osobuyu-programmu-ko-dnyu-teatra.html содержит недостаточно слов (656 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/raskryto-kto-vedet-peregovory-s-ssha-so-storony-irana.html
+Страница https://www.mk.ru/politics/2026/03/23/raskryto-kto-vedet-peregovory-s-ssha-so-storony-irana.html содержит недостаточно слов (658 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/prikovannaya-k-posteli-68letnyaya-rossiyanka-poluchila-kvotu-na-operaciyu.html
+Страница https://www.mk.ru/social/2026/03/23/prikovannaya-k-posteli-68letnyaya-rossiyanka-poluchila-kvotu-na-operaciyu.html содержит недостаточно слов (547 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/5-chelovek-postradali-pri-udarakh-vsu-po-belgorodskoy-oblasti.html
+Страница https://www.mk.ru/politics/2026/03/23/5-chelovek-postradali-pri-udarakh-vsu-po-belgorodskoy-oblasti.html содержит недостаточно слов (589 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/molodoy-muzhchina-priekhal-na-svoyu-svadbu-v-druguyu-stranu-i-pogib-vo-vremya-kupaniya-v-more.html
+Страница https://www.mk.ru/incident/2026/03/23/molodoy-muzhchina-priekhal-na-svoyu-svadbu-v-druguyu-stranu-i-pogib-vo-vremya-kupaniya-v-more.html содержит недостаточно слов (591 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/23/darya-moroz-voskhitila-neozhidannym-obrazom-v-kremle.html
+Страница https://www.mk.ru/video/2026/03/23/darya-moroz-voskhitila-neozhidannym-obrazom-v-kremle.html содержит недостаточно слов (440 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/zakharova-soobshhila-chem-mozhet-zakonchitsya-konflikt-na-ukraine.html
+Страница https://www.mk.ru/politics/2026/03/23/zakharova-soobshhila-chem-mozhet-zakonchitsya-konflikt-na-ukraine.html содержит недостаточно слов (606 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/masshtabnye-voennye-ucheniya-kanady-v-arktike-poterpeli-neudachu.html
+Страница https://www.mk.ru/politics/2026/03/23/masshtabnye-voennye-ucheniya-kanady-v-arktike-poterpeli-neudachu.html содержит недостаточно слов (507 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/23/muzh-rasputinoy-rasskazal-kak-dolzhna-razreshitsya-situaciya-s-delezhkoy-doma.html
+Страница https://www.mk.ru/video/2026/03/23/muzh-rasputinoy-rasskazal-kak-dolzhna-razreshitsya-situaciya-s-delezhkoy-doma.html содержит недостаточно слов (441 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/sergey-sobyanin-dva-zavoda-po-proizvodstvu-akkumulyatorov-zapustyat-v-moskve.html
+Страница https://www.mk.ru/social/2026/03/23/sergey-sobyanin-dva-zavoda-po-proizvodstvu-akkumulyatorov-zapustyat-v-moskve.html содержит недостаточно слов (578 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/sotrudniki-tck-ne-tolko-prinuditelno-mobilizuyut-ukraincev-no-i-kradut-ikh-zhivotnykh.html
+Страница https://www.mk.ru/politics/2026/03/23/sotrudniki-tck-ne-tolko-prinuditelno-mobilizuyut-ukraincev-no-i-kradut-ikh-zhivotnykh.html содержит недостаточно слов (956 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/23/panayotov-otvetil-na-kritiku-gubina.html
+Страница https://www.mk.ru/video/2026/03/23/panayotov-otvetil-na-kritiku-gubina.html содержит недостаточно слов (446 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/v-rossiyskom-regione-osuzhdena-organizovannaya-gruppa-za-kontrabandu-lesa-na-milliony-rubley.html
+Страница https://www.mk.ru/social/2026/03/23/v-rossiyskom-regione-osuzhdena-organizovannaya-gruppa-za-kontrabandu-lesa-na-milliony-rubley.html содержит недостаточно слов (678 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/izrail-razbombil-most-svyazyvayushhiy-yug-i-vostok-livana.html
+Страница https://www.mk.ru/politics/2026/03/23/izrail-razbombil-most-svyazyvayushhiy-yug-i-vostok-livana.html содержит недостаточно слов (525 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/ekspert-rasskazal-kak-smert-patriarkha-gruzii-ilii-ii-povliyaet-na-sudbu-pravoslaviya-v-stranakh-ekssssr.html
+Сохранен документ #29: https://www.mk.ru/politics/2026/03/23/ekspert-rasskazal-kak-smert-patriarkha-gruzii-ilii-ii-povliyaet-na-sudbu-pravoslaviya-v-stranakh-ekssssr.html
+Обработка URL: https://www.mk.ru/politics/2026/03/23/tureckiy-fermer-pereletel-pole-na-agrodrone.html
+Страница https://www.mk.ru/politics/2026/03/23/tureckiy-fermer-pereletel-pole-na-agrodrone.html содержит недостаточно слов (489 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/politolog-rasskazal-chto-stoit-za-rechami-ryutte-o-gotovnosti-zelenskogo-k-sdelke-s-rossiey.html
+Страница https://www.mk.ru/politics/2026/03/23/politolog-rasskazal-chto-stoit-za-rechami-ryutte-o-gotovnosti-zelenskogo-k-sdelke-s-rossiey.html содержит недостаточно слов (701 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/buynaya-loshad-mertvoy-khvatkoy-vcepilas-v-konyukha-zaraziv-ego-opasnoy-infekciey.html
+Страница https://www.mk.ru/incident/2026/03/23/buynaya-loshad-mertvoy-khvatkoy-vcepilas-v-konyukha-zaraziv-ego-opasnoy-infekciey.html содержит недостаточно слов (639 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/ekspert-raskryl-chto-mozhet-privesti-k-razrusheniyu-pravitelstva-merca.html
+Страница https://www.mk.ru/politics/2026/03/23/ekspert-raskryl-chto-mozhet-privesti-k-razrusheniyu-pravitelstva-merca.html содержит недостаточно слов (556 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/fermer-proletel-po-svoemu-polyu-na-drone-i-stal-geroem-socsetey.html
+Страница https://www.mk.ru/social/2026/03/23/fermer-proletel-po-svoemu-polyu-na-drone-i-stal-geroem-socsetey.html содержит недостаточно слов (586 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/vsu-atakovali-telecentr-v-donecke-s-pomoshhyu-natovskikh-dronov.html
+Страница https://www.mk.ru/politics/2026/03/23/vsu-atakovali-telecentr-v-donecke-s-pomoshhyu-natovskikh-dronov.html содержит недостаточно слов (512 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/polez-radi-kadra-podrobnosti-strashnoy-gibeli-15letnego-zacepera.html
+Страница https://www.mk.ru/incident/2026/03/23/polez-radi-kadra-podrobnosti-strashnoy-gibeli-15letnego-zacepera.html содержит недостаточно слов (610 < 1000)
+Обработка URL: https://www.mk.ru/science/2026/03/23/fitnes-dlya-serdca-fiziki-rasschitali-kak-nado-pravilno-dyshat.html
+Сохранен документ #30: https://www.mk.ru/science/2026/03/23/fitnes-dlya-serdca-fiziki-rasschitali-kak-nado-pravilno-dyshat.html
+Обработка URL: https://www.mk.ru/culture/2026/03/23/zagadochnaya-istoriya-ischeznoveniya-granpri-sluchilas-na-glavnom-animacionnom-festivale-strany.html
+Страница https://www.mk.ru/culture/2026/03/23/zagadochnaya-istoriya-ischeznoveniya-granpri-sluchilas-na-glavnom-animacionnom-festivale-strany.html содержит недостаточно слов (958 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/trampa-obvinili-vo-lzhi-izza-slov-o-peregovorakh-s-iranom.html
+Страница https://www.mk.ru/politics/2026/03/23/trampa-obvinili-vo-lzhi-izza-slov-o-peregovorakh-s-iranom.html содержит недостаточно слов (643 < 1000)
+Обработка URL: https://www.mk.ru/realestate/2026/03/23/metry-peremen-gde-v-moskve-bolshe-vsego-upal-spros-na-novostroyki.html
+Страница https://www.mk.ru/realestate/2026/03/23/metry-peremen-gde-v-moskve-bolshe-vsego-upal-spros-na-novostroyki.html содержит недостаточно слов (819 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/v-rossiyskom-regione-policiya-i-fsb-zaderzhali-gruppirovku-vymogateley.html
+Страница https://www.mk.ru/incident/2026/03/23/v-rossiyskom-regione-policiya-i-fsb-zaderzhali-gruppirovku-vymogateley.html содержит недостаточно слов (622 < 1000)
+Обработка URL: https://www.mk.ru/economics/2026/03/23/v-ssha-benzin-podorozhal-bolee-chem-na-tret.html
+Страница https://www.mk.ru/economics/2026/03/23/v-ssha-benzin-podorozhal-bolee-chem-na-tret.html содержит недостаточно слов (542 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/pasynok-stasa-namina-vystupil-s-poslednim-slovom-ne-znayu-kak-eto-poluchilos.html
+Страница https://www.mk.ru/social/2026/03/23/pasynok-stasa-namina-vystupil-s-poslednim-slovom-ne-znayu-kak-eto-poluchilos.html содержит недостаточно слов (795 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/moshhnyy-vzryv-na-zapade-strany-privel-k-mnogochislennym-zhertvam.html
+Страница https://www.mk.ru/incident/2026/03/23/moshhnyy-vzryv-na-zapade-strany-privel-k-mnogochislennym-zhertvam.html содержит недостаточно слов (573 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/bolezn-okazalas-razrushitelnoy-dlya-otnosheniy-silnee-ssor-i-izmen.html
+Сохранен документ #31: https://www.mk.ru/social/2026/03/23/bolezn-okazalas-razrushitelnoy-dlya-otnosheniy-silnee-ssor-i-izmen.html
+Обработка URL: https://www.mk.ru/incident/2026/03/23/rossiyane-obnaruzhili-v-svoey-kvartire-neobychnuyu-gostyu.html
+Страница https://www.mk.ru/incident/2026/03/23/rossiyane-obnaruzhili-v-svoey-kvartire-neobychnuyu-gostyu.html содержит недостаточно слов (534 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/peredannyy-shveciey-samolet-vpervye-zametili-na-ukraine.html
+Страница https://www.mk.ru/politics/2026/03/23/peredannyy-shveciey-samolet-vpervye-zametili-na-ukraine.html содержит недостаточно слов (530 < 1000)
+Обработка URL: https://www.mk.ru/culture/2026/03/23/aktyora-tikhona-kotrelyova-gospitalizirovali-v-psikhiatricheskuyu-bolnicu.html
+Страница https://www.mk.ru/culture/2026/03/23/aktyora-tikhona-kotrelyova-gospitalizirovali-v-psikhiatricheskuyu-bolnicu.html содержит недостаточно слов (525 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/vladimir-putin-obyasnil-spad-ekonomiki-v-yanvare-kalendarnym-faktorom.html
+Страница https://www.mk.ru/politics/2026/03/23/vladimir-putin-obyasnil-spad-ekonomiki-v-yanvare-kalendarnym-faktorom.html содержит недостаточно слов (897 < 1000)
+Обработка URL: https://www.mk.ru/economics/2026/03/23/marketpleysam-zapretyat-skidki-kak-eto-otrazitsya-na-stoimosti-tovarov-na-onlaynploshhadkakh.html
+Сохранен документ #32: https://www.mk.ru/economics/2026/03/23/marketpleysam-zapretyat-skidki-kak-eto-otrazitsya-na-stoimosti-tovarov-na-onlaynploshhadkakh.html
+Обработка URL: https://www.mk.ru/realestate/2026/03/23/osobnyaki-vmesto-mnogoetazhek-investory-aktivno-konkuriruyut-v-borbe-za-istoricheskie-zdaniya-v-centre-moskvy.html
+Страница https://www.mk.ru/realestate/2026/03/23/osobnyaki-vmesto-mnogoetazhek-investory-aktivno-konkuriruyut-v-borbe-za-istoricheskie-zdaniya-v-centre-moskvy.html содержит недостаточно слов (851 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/v-erevane-dali-ocenku-srokam-zaversheniya-peregovorov-s-es-o-liberalizacii-vizovogo-rezhima.html
+Страница https://www.mk.ru/politics/2026/03/23/v-erevane-dali-ocenku-srokam-zaversheniya-peregovorov-s-es-o-liberalizacii-vizovogo-rezhima.html содержит недостаточно слов (579 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/kiev-obratilsya-za-postavkami-gaza-v-afriku.html
+Страница https://www.mk.ru/politics/2026/03/23/kiev-obratilsya-za-postavkami-gaza-v-afriku.html содержит недостаточно слов (588 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/besposhhadnye-sankcii-protiv-irana-okazalis-bessmyslennymi-otkuda-u-ksir-ballistika-letayushhaya-na-4000-km.html
+Сохранен документ #33: https://www.mk.ru/politics/2026/03/23/besposhhadnye-sankcii-protiv-irana-okazalis-bessmyslennymi-otkuda-u-ksir-ballistika-letayushhaya-na-4000-km.html
+Обработка URL: https://www.mk.ru/press-center/2026/03/23/multanskoe-delo-istoriya-grandioznoy-fabrikacii.html
+Страница https://www.mk.ru/press-center/2026/03/23/multanskoe-delo-istoriya-grandioznoy-fabrikacii.html содержит недостаточно слов (690 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/ten-trampa-vybory-v-evropeyskoy-strane-nazvali-testom-dlya-premerministra.html
+Сохранен документ #34: https://www.mk.ru/politics/2026/03/23/ten-trampa-vybory-v-evropeyskoy-strane-nazvali-testom-dlya-premerministra.html
+Обработка URL: https://www.mk.ru/politics/2026/03/23/ekspert-nazval-glavnuyu-problemu-zapadnoy-tekhniki-v-zone-svo-v-period-vesny.html
+Страница https://www.mk.ru/politics/2026/03/23/ekspert-nazval-glavnuyu-problemu-zapadnoy-tekhniki-v-zone-svo-v-period-vesny.html содержит недостаточно слов (664 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/ne-smotrite-v-glaza-kak-sebya-vesti-pri-vstreche-s-agressivnym-psikhicheskim-bolnym.html
+Сохранен документ #35: https://www.mk.ru/social/2026/03/23/ne-smotrite-v-glaza-kak-sebya-vesti-pri-vstreche-s-agressivnym-psikhicheskim-bolnym.html
+Обработка URL: https://www.mk.ru/incident/2026/03/23/godovalyy-rebenok-umer-vypiv-zhidkost-dlya-elektronnykh-sigaret.html
+Страница https://www.mk.ru/incident/2026/03/23/godovalyy-rebenok-umer-vypiv-zhidkost-dlya-elektronnykh-sigaret.html содержит недостаточно слов (479 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/olimpiyskaya-chempionka-po-begu-lishilas-obuvi-v-aeroportu-polshi.html
+Страница https://www.mk.ru/politics/2026/03/23/olimpiyskaya-chempionka-po-begu-lishilas-obuvi-v-aeroportu-polshi.html содержит недостаточно слов (529 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/prezident-ssha-zayavil-o-planakh-provesti-vstrechu-s-predstavitelyami-irana.html
+Страница https://www.mk.ru/politics/2026/03/23/prezident-ssha-zayavil-o-planakh-provesti-vstrechu-s-predstavitelyami-irana.html содержит недостаточно слов (599 < 1000)
+Обработка URL: https://www.mk.ru/culture/2026/03/23/nazvana-prichina-smerti-aktera-iz-ulic-razbitykh-fonarey-aleksandra-khomika.html
+Страница https://www.mk.ru/culture/2026/03/23/nazvana-prichina-smerti-aktera-iz-ulic-razbitykh-fonarey-aleksandra-khomika.html содержит недостаточно слов (617 < 1000)
+Обработка URL: https://www.mk.ru/science/2026/03/23/rossiyskiy-uchenyy-provel-pervye-opyty-na-morskoy-svinke-pomechennoy-izotopami.html
+Страница https://www.mk.ru/science/2026/03/23/rossiyskiy-uchenyy-provel-pervye-opyty-na-morskoy-svinke-pomechennoy-izotopami.html содержит недостаточно слов (766 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/ozvucheno-v-kakom-sluchae-kievu-udastsya-uyti-ot-otvetstvennosti-za-proslushku-siyyarto.html
+Страница https://www.mk.ru/politics/2026/03/23/ozvucheno-v-kakom-sluchae-kievu-udastsya-uyti-ot-otvetstvennosti-za-proslushku-siyyarto.html содержит недостаточно слов (603 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/zrya-boyalis-shkolniki-perezhivayut-ogranicheniya-interneta-sovershenno-spokoyno.html
+Сохранен документ #36: https://www.mk.ru/social/2026/03/23/zrya-boyalis-shkolniki-perezhivayut-ogranicheniya-interneta-sovershenno-spokoyno.html
+Обработка URL: https://www.mk.ru/politics/2026/03/23/ekspert-dopustila-ischeznovenie-nyneshnego-izrailya-kak-politicheskogo-obrazovaniya.html
+Страница https://www.mk.ru/politics/2026/03/23/ekspert-dopustila-ischeznovenie-nyneshnego-izrailya-kak-politicheskogo-obrazovaniya.html содержит недостаточно слов (581 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/zhurnalist-axios-perechislil-posrednikov-v-peregovorakh-irana-i-ssha.html
+Страница https://www.mk.ru/politics/2026/03/23/zhurnalist-axios-perechislil-posrednikov-v-peregovorakh-irana-i-ssha.html содержит недостаточно слов (704 < 1000)
+Обработка URL: https://www.mk.ru/sport/2026/03/23/denis-boyarincev-spartak-ostayotsya-komandoyzagadkoy.html
+Сохранен документ #37: https://www.mk.ru/sport/2026/03/23/denis-boyarincev-spartak-ostayotsya-komandoyzagadkoy.html
+Обработка URL: https://www.mk.ru/incident/2026/03/23/voditel-legkovushki-vekhal-v-tolpu-lyudey-na-trotuare-v-rezultate-avarii.html
+Страница https://www.mk.ru/incident/2026/03/23/voditel-legkovushki-vekhal-v-tolpu-lyudey-na-trotuare-v-rezultate-avarii.html содержит недостаточно слов (518 < 1000)
+Обработка URL: https://www.mk.ru/sport/2026/03/23/poluzashhitnik-baltiki-petrov-rasskazal-o-vyzove-v-sbornuyu-rossii.html
+Страница https://www.mk.ru/sport/2026/03/23/poluzashhitnik-baltiki-petrov-rasskazal-o-vyzove-v-sbornuyu-rossii.html содержит недостаточно слов (463 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/v-krasnodare-iz-magazina-propal-bolnoy-kot-ego-ukral-neizvestnyy.html
+Страница https://www.mk.ru/incident/2026/03/23/v-krasnodare-iz-magazina-propal-bolnoy-kot-ego-ukral-neizvestnyy.html содержит недостаточно слов (573 < 1000)
+Обработка URL: https://www.mk.ru/economics/2026/03/23/dmitriev-ozvuchil-summu-kotoruyu-poteryaet-es-izza-deystviy-protiv-energetiki-rf.html
+Страница https://www.mk.ru/economics/2026/03/23/dmitriev-ozvuchil-summu-kotoruyu-poteryaet-es-izza-deystviy-protiv-energetiki-rf.html содержит недостаточно слов (521 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/tramp-soobshhil-kto-iz-predstaviteley-ssha-uchastvoval-v-peregovorakh-s-iranom.html
+Страница https://www.mk.ru/politics/2026/03/23/tramp-soobshhil-kto-iz-predstaviteley-ssha-uchastvoval-v-peregovorakh-s-iranom.html содержит недостаточно слов (709 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/obvinitel-zaprosil-srok-dlya-ubiycy-syna-i-teshhi-stasa-namina.html
+Страница https://www.mk.ru/social/2026/03/23/obvinitel-zaprosil-srok-dlya-ubiycy-syna-i-teshhi-stasa-namina.html содержит недостаточно слов (581 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/sandu-nazvala-voynu-v-ukraine-i-situaciyu-v-pridnestrove-istochnikami-kontrabandy-oruzhiya-v-moldavii.html
+Страница https://www.mk.ru/politics/2026/03/23/sandu-nazvala-voynu-v-ukraine-i-situaciyu-v-pridnestrove-istochnikami-kontrabandy-oruzhiya-v-moldavii.html содержит недостаточно слов (594 < 1000)
+Обработка URL: https://www.mk.ru/economics/2026/03/23/korzina-v-dvukh-izmereniyakh-v-fevrale-osnovnye-produkty-podorozhali-na-13-.html
+Страница https://www.mk.ru/economics/2026/03/23/korzina-v-dvukh-izmereniyakh-v-fevrale-osnovnye-produkty-podorozhali-na-13-.html содержит недостаточно слов (894 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/na-zapade-napomnili-itog-pozitivnykh-peregovorov-ssha-s-iranom.html
+Страница https://www.mk.ru/politics/2026/03/23/na-zapade-napomnili-itog-pozitivnykh-peregovorov-ssha-s-iranom.html содержит недостаточно слов (582 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/v-evrope-vozmutilis-planami-bryusselya-sabotirovat-vybory-v-vengrii.html
+Страница https://www.mk.ru/politics/2026/03/23/v-evrope-vozmutilis-planami-bryusselya-sabotirovat-vybory-v-vengrii.html содержит недостаточно слов (527 < 1000)
+Обработка URL: https://www.mk.ru/economics/2026/03/23/v-banke-rossii-ocenili-sudbu-klyuchevoy-stavki.html
+Страница https://www.mk.ru/economics/2026/03/23/v-banke-rossii-ocenili-sudbu-klyuchevoy-stavki.html содержит недостаточно слов (498 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/bez-vody-ne-vyzhit-krizis-o-kotorom-poka-molchat.html
+Сохранен документ #38: https://www.mk.ru/politics/2026/03/23/bez-vody-ne-vyzhit-krizis-o-kotorom-poka-molchat.html
+Обработка URL: https://www.mk.ru/realestate/2026/03/23/rieltor-soobshhil-o-strukturnykh-izmeneniyakh-na-rynke-novostroek-moskvy.html
+Страница https://www.mk.ru/realestate/2026/03/23/rieltor-soobshhil-o-strukturnykh-izmeneniyakh-na-rynke-novostroek-moskvy.html содержит недостаточно слов (597 < 1000)
+Обработка URL: https://www.mk.ru/economics/2026/03/23/vtb-uznal-kak-pensionery-izmenili-nakopitelnuyu-model-povedeniya.html
+Страница https://www.mk.ru/economics/2026/03/23/vtb-uznal-kak-pensionery-izmenili-nakopitelnuyu-model-povedeniya.html содержит недостаточно слов (578 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/lidery-rossii-i-armenii-obsudili-klyuchevye-sfery-partnyorstva.html
+Страница https://www.mk.ru/politics/2026/03/23/lidery-rossii-i-armenii-obsudili-klyuchevye-sfery-partnyorstva.html содержит недостаточно слов (563 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/raskryto-naskolko-chashhe-zhenshhiny-stradayut-ot-depressii-chem-muzhchiny.html
+Страница https://www.mk.ru/social/2026/03/23/raskryto-naskolko-chashhe-zhenshhiny-stradayut-ot-depressii-chem-muzhchiny.html содержит недостаточно слов (614 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/razyarennaya-slonikha-nasmert-zatoptala-dvukh-turistok.html
+Страница https://www.mk.ru/incident/2026/03/23/razyarennaya-slonikha-nasmert-zatoptala-dvukh-turistok.html содержит недостаточно слов (535 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/ekspert-svyazal-sboi-v-rabote-telegram-s-nekhvatkoy-oborudovaniya-u-rkn.html
+Страница https://www.mk.ru/social/2026/03/23/ekspert-svyazal-sboi-v-rabote-telegram-s-nekhvatkoy-oborudovaniya-u-rkn.html содержит недостаточно слов (547 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/passazhiry-reysa-iz-khurgady-v-sanktpeterburg-do-sikh-por-ne-mogut-dobratsya-do-doma.html
+Страница https://www.mk.ru/politics/2026/03/23/passazhiry-reysa-iz-khurgady-v-sanktpeterburg-do-sikh-por-ne-mogut-dobratsya-do-doma.html содержит недостаточно слов (569 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/v-gosdume-predupredili-o-riske-vykhoda-blizhnevostochnogo-konflikta-izpod-kontrolya.html
+Страница https://www.mk.ru/politics/2026/03/23/v-gosdume-predupredili-o-riske-vykhoda-blizhnevostochnogo-konflikta-izpod-kontrolya.html содержит недостаточно слов (676 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/kazhdaya-pyataya-semya-za-chertoy-bednosti-v-gosdume-ozvuchili-glavnye-problemy-mnogodetnykh.html
+Сохранен документ #39: https://www.mk.ru/social/2026/03/23/kazhdaya-pyataya-semya-za-chertoy-bednosti-v-gosdume-ozvuchili-glavnye-problemy-mnogodetnykh.html
+Обработка URL: https://www.mk.ru/culture/2026/03/23/khod-konem-v-moskve-pokazali-redkuyu-skulpturu-i-grafiku-o-kavkaze.html
+Сохранен документ #40: https://www.mk.ru/culture/2026/03/23/khod-konem-v-moskve-pokazali-redkuyu-skulpturu-i-grafiku-o-kavkaze.html
+Обработка URL: https://www.mk.ru/politics/2026/03/23/vs-rf-ustroili-zharkuyu-noch-inostrannym-naemnikam-pod-odessoy.html
+Страница https://www.mk.ru/politics/2026/03/23/vs-rf-ustroili-zharkuyu-noch-inostrannym-naemnikam-pod-odessoy.html содержит недостаточно слов (595 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/ekspert-ocenil-budushhee-rossiyskogo-interneta-na-fone-blokirovok.html
+Страница https://www.mk.ru/social/2026/03/23/ekspert-ocenil-budushhee-rossiyskogo-interneta-na-fone-blokirovok.html содержит недостаточно слов (580 < 1000)
+Обработка URL: https://www.mk.ru/science/2026/03/23/rabochie-nashli-korabl-vikingov-pri-zamene-kanalizacii.html
+Страница https://www.mk.ru/science/2026/03/23/rabochie-nashli-korabl-vikingov-pri-zamene-kanalizacii.html содержит недостаточно слов (866 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/protivostoyanie-u-groba-na-ukraine-pcu-obvinili-v-sryve-pokhoron-i-zakhvate-imushhestva.html
+Страница https://www.mk.ru/politics/2026/03/23/protivostoyanie-u-groba-na-ukraine-pcu-obvinili-v-sryve-pokhoron-i-zakhvate-imushhestva.html содержит недостаточно слов (783 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/umer-nobelevskiy-laureat-dzhon-bishop-perevernuvshiy-predstavleniya-o-prirode-raka.html
+Страница https://www.mk.ru/social/2026/03/23/umer-nobelevskiy-laureat-dzhon-bishop-perevernuvshiy-predstavleniya-o-prirode-raka.html содержит недостаточно слов (645 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/byvshiy-mer-izhevska-poluchil-srok-za-makhinacii-s-zemelnymi-uchastkami.html
+Страница https://www.mk.ru/social/2026/03/23/byvshiy-mer-izhevska-poluchil-srok-za-makhinacii-s-zemelnymi-uchastkami.html содержит недостаточно слов (564 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/rossiyane-pozhalovalis-na-nastavivshuyu-na-uchenikov-avtomat-prepodavatelnicu.html
+Страница https://www.mk.ru/social/2026/03/23/rossiyane-pozhalovalis-na-nastavivshuyu-na-uchenikov-avtomat-prepodavatelnicu.html содержит недостаточно слов (618 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/vpavshaya-v-komu-v-tailande-krymchanka-letit-v-moskvu.html
+Страница https://www.mk.ru/social/2026/03/23/vpavshaya-v-komu-v-tailande-krymchanka-letit-v-moskvu.html содержит недостаточно слов (501 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/v-mid-rf-vyrazili-bespokoystvo-izza-vozmozhnogo-rasprostraneniya-konflikta-vokrug-irana-na-kaspiy.html
+Страница https://www.mk.ru/politics/2026/03/23/v-mid-rf-vyrazili-bespokoystvo-izza-vozmozhnogo-rasprostraneniya-konflikta-vokrug-irana-na-kaspiy.html содержит недостаточно слов (556 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/bulanova-posle-kapelnicy-vpervye-raskryla-obstoyatelstva-svoego-zabolevaniya.html
+Страница https://www.mk.ru/social/2026/03/23/bulanova-posle-kapelnicy-vpervye-raskryla-obstoyatelstva-svoego-zabolevaniya.html содержит недостаточно слов (539 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/moskva-poobeshhala-presech-razboy-i-bespredel-v-baltiyskom-more-vsemi-neobkhodimymi-sredstvami.html
+Страница https://www.mk.ru/politics/2026/03/23/moskva-poobeshhala-presech-razboy-i-bespredel-v-baltiyskom-more-vsemi-neobkhodimymi-sredstvami.html содержит недостаточно слов (606 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/kollega-ozvuchila-perspektivy-romana-bogatyreva-i-zdorik-neprostaya-istoriya.html
+Страница https://www.mk.ru/social/2026/03/23/kollega-ozvuchila-perspektivy-romana-bogatyreva-i-zdorik-neprostaya-istoriya.html содержит недостаточно слов (631 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/vladelec-platformy-onlyfans-leonid-radvinskiy-umer-ot-raka.html
+Страница https://www.mk.ru/social/2026/03/23/vladelec-platformy-onlyfans-leonid-radvinskiy-umer-ot-raka.html содержит недостаточно слов (469 < 1000)
+Обработка URL: https://www.mk.ru/culture/2026/03/23/na-premernye-poklony-v-mamte-vynesli-samogo-shostakovicha.html
+Сохранен документ #41: https://www.mk.ru/culture/2026/03/23/na-premernye-poklony-v-mamte-vynesli-samogo-shostakovicha.html
+Обработка URL: https://www.mk.ru/culture/2026/03/23/umer-aktyor-iz-serialov-ulicy-razbitykh-fonarey-i-tayny-sledstviya-aleksandr-khomik.html
+Страница https://www.mk.ru/culture/2026/03/23/umer-aktyor-iz-serialov-ulicy-razbitykh-fonarey-i-tayny-sledstviya-aleksandr-khomik.html содержит недостаточно слов (613 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/pravkomissiya-odobrila-millionnye-shtrafy-za-nezakonnyy-kriptomayning.html
+Страница https://www.mk.ru/social/2026/03/23/pravkomissiya-odobrila-millionnye-shtrafy-za-nezakonnyy-kriptomayning.html содержит недостаточно слов (697 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/pravookhranitelnye-organy-rasskazali-o-propavshikh-v-ulyanovske-podrostkakh.html
+Страница https://www.mk.ru/incident/2026/03/23/pravookhranitelnye-organy-rasskazali-o-propavshikh-v-ulyanovske-podrostkakh.html содержит недостаточно слов (510 < 1000)
+Обработка URL: https://www.mk.ru/economics/2026/03/23/nazvany-prichiny-po-kotorym-banki-odobryayut-menee-20-zayavok-na-kredity-eto-ne-vsplesk-a-novaya-norma.html
+Сохранен документ #42: https://www.mk.ru/economics/2026/03/23/nazvany-prichiny-po-kotorym-banki-odobryayut-menee-20-zayavok-na-kredity-eto-ne-vsplesk-a-novaya-norma.html
+Обработка URL: https://www.mk.ru/social/2026/03/23/rossiyanin-poluchil-srok-za-kommentariy-pod-religioznym-postom.html
+Страница https://www.mk.ru/social/2026/03/23/rossiyanin-poluchil-srok-za-kommentariy-pod-religioznym-postom.html содержит недостаточно слов (519 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/po-delu-o-gibeli-pensionerki-pod-glyboy-lda-zaderzhan-predstavitel-upravlyayushhey-kompanii.html
+Страница https://www.mk.ru/incident/2026/03/23/po-delu-o-gibeli-pensionerki-pod-glyboy-lda-zaderzhan-predstavitel-upravlyayushhey-kompanii.html содержит недостаточно слов (494 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/iran-poblagodaril-rossiyu-za-diplomaticheskuyu-i-gumanitarnuyu-podderzhku.html
+Страница https://www.mk.ru/politics/2026/03/23/iran-poblagodaril-rossiyu-za-diplomaticheskuyu-i-gumanitarnuyu-podderzhku.html содержит недостаточно слов (592 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/nazvana-sekretnaya-formula-druzhby-tyanemsya-k-sosedyam.html
+Страница https://www.mk.ru/social/2026/03/23/nazvana-sekretnaya-formula-druzhby-tyanemsya-k-sosedyam.html содержит недостаточно слов (928 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/ukrainskie-voenkomy-ispolzuyut-sayty-znakomstv-dlya-zaderzhaniya-muzhchin.html
+Страница https://www.mk.ru/politics/2026/03/23/ukrainskie-voenkomy-ispolzuyut-sayty-znakomstv-dlya-zaderzhaniya-muzhchin.html содержит недостаточно слов (550 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/bral-na-pont-obyasnyon-smysl-otkaza-trampa-ot-udarov-po-iranu.html
+Сохранен документ #43: https://www.mk.ru/politics/2026/03/23/bral-na-pont-obyasnyon-smysl-otkaza-trampa-ot-udarov-po-iranu.html
+Обработка URL: https://www.mk.ru/social/2026/03/23/kontuziya-predatelstvo-zhenshhiny-utrachennye-dokumenty-v-bolnice-donecka-dva-goda-nakhoditsya-serbskiy-dobrovolec.html
+Сохранен документ #44: https://www.mk.ru/social/2026/03/23/kontuziya-predatelstvo-zhenshhiny-utrachennye-dokumenty-v-bolnice-donecka-dva-goda-nakhoditsya-serbskiy-dobrovolec.html
+Обработка URL: https://www.mk.ru/politics/2026/03/23/okazhutsya-v-lovushke-korotchenko-rasskazal-chem-mozhet-obernutsya-dlya-ssha-operaciya-po-zakhvatu-iranskogo-ostrova-khark.html
+Страница https://www.mk.ru/politics/2026/03/23/okazhutsya-v-lovushke-korotchenko-rasskazal-chem-mozhet-obernutsya-dlya-ssha-operaciya-po-zakhvatu-iranskogo-ostrova-khark.html содержит недостаточно слов (969 < 1000)
+Обработка URL: https://www.mk.ru/sport/2026/03/23/izvestnyy-rossiyskiy-futbolist-sochinil-stikhotvorenie-v-chest-1000y-shayby-ovechkina-v-nkhl.html
+Страница https://www.mk.ru/sport/2026/03/23/izvestnyy-rossiyskiy-futbolist-sochinil-stikhotvorenie-v-chest-1000y-shayby-ovechkina-v-nkhl.html содержит недостаточно слов (645 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/v-irane-oprovergli-peregovory-s-donaldom-trampom.html
+Страница https://www.mk.ru/politics/2026/03/23/v-irane-oprovergli-peregovory-s-donaldom-trampom.html содержит недостаточно слов (512 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/v-finlyandii-vystupili-s-zhestkim-prizyvom-po-rossii.html
+Страница https://www.mk.ru/politics/2026/03/23/v-finlyandii-vystupili-s-zhestkim-prizyvom-po-rossii.html содержит недостаточно слов (577 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/23/chto-mozhno-est-balerine-bolshogo-teatra-otkroveniya-solistki-baleta.html
+Страница https://www.mk.ru/video/2026/03/23/chto-mozhno-est-balerine-bolshogo-teatra-otkroveniya-solistki-baleta.html содержит недостаточно слов (454 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/chastnyy-plasticheskiy-khirurg-obezobrazil-pacientku-i-skrylsya.html
+Страница https://www.mk.ru/social/2026/03/23/chastnyy-plasticheskiy-khirurg-obezobrazil-pacientku-i-skrylsya.html содержит недостаточно слов (617 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/ocenena-veroyatnost-togo-chto-iran-sdastsya-v-konflikte-s-ssha-i-izrailem.html
+Страница https://www.mk.ru/politics/2026/03/23/ocenena-veroyatnost-togo-chto-iran-sdastsya-v-konflikte-s-ssha-i-izrailem.html содержит недостаточно слов (637 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/zvezdu-britanskogo-realitishou-nashli-myortvym-v-kanave-v-tailande.html
+Страница https://www.mk.ru/politics/2026/03/23/zvezdu-britanskogo-realitishou-nashli-myortvym-v-kanave-v-tailande.html содержит недостаточно слов (535 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/zhenshhinu-prizvali-ne-vydumyvat-o-zhivshem-na-eyo-kryshe-neznakomce-ne-sumasshedshaya.html
+Страница https://www.mk.ru/social/2026/03/23/zhenshhinu-prizvali-ne-vydumyvat-o-zhivshem-na-eyo-kryshe-neznakomce-ne-sumasshedshaya.html содержит недостаточно слов (686 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/ukrainskiy-nardep-obvinil-ofis-zelenskogo-v-podgotovke-k-izbieniyu-deputatov.html
+Страница https://www.mk.ru/politics/2026/03/23/ukrainskiy-nardep-obvinil-ofis-zelenskogo-v-podgotovke-k-izbieniyu-deputatov.html содержит недостаточно слов (663 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/izrail-soobshhil-ob-udarakh-po-obektam-pravitelstva-irana.html
+Страница https://www.mk.ru/politics/2026/03/23/izrail-soobshhil-ob-udarakh-po-obektam-pravitelstva-irana.html содержит недостаточно слов (498 < 1000)
+Обработка URL: https://www.mk.ru/science/2026/03/23/kitayskie-uchenye-pridelali-cheloveku-dve-dopolnitelnye-mekhanicheskie-nogi.html
+Страница https://www.mk.ru/science/2026/03/23/kitayskie-uchenye-pridelali-cheloveku-dve-dopolnitelnye-mekhanicheskie-nogi.html содержит недостаточно слов (707 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/na-ukraine-nazvali-uslovie-vozvrashheniya-desyatkov-tysyach-chelovek-v-rossiyu.html
+Страница https://www.mk.ru/politics/2026/03/23/na-ukraine-nazvali-uslovie-vozvrashheniya-desyatkov-tysyach-chelovek-v-rossiyu.html содержит недостаточно слов (624 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/v-tailande-naydeno-telo-rossiyanina-s-predsmertnoy-zapiskoy-v-karmane.html
+Страница https://www.mk.ru/incident/2026/03/23/v-tailande-naydeno-telo-rossiyanina-s-predsmertnoy-zapiskoy-v-karmane.html содержит недостаточно слов (525 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/tramp-odnoy-publikaciey-za-schitannye-chasy-obvalil-neftyanoy-rynok.html
+Страница https://www.mk.ru/politics/2026/03/23/tramp-odnoy-publikaciey-za-schitannye-chasy-obvalil-neftyanoy-rynok.html содержит недостаточно слов (559 < 1000)
+Обработка URL: https://www.mk.ru/sport/2026/03/23/dmitriy-pyatibratov-zenit-lishil-dinamo-ego-glavnogo-kozyrya.html
+Сохранен документ #45: https://www.mk.ru/sport/2026/03/23/dmitriy-pyatibratov-zenit-lishil-dinamo-ego-glavnogo-kozyrya.html
+Обработка URL: https://www.mk.ru/politics/2026/03/23/otvet-za-leningradskuyu-oblast-posledoval-minus-aerodrom-i-zavod-na-ukraine.html
+Страница https://www.mk.ru/politics/2026/03/23/otvet-za-leningradskuyu-oblast-posledoval-minus-aerodrom-i-zavod-na-ukraine.html содержит недостаточно слов (789 < 1000)
+Обработка URL: https://www.mk.ru/incident/2026/03/23/v-rossiyskom-gorode-podrostki-obnaruzhili-chelovecheskie-ostanki-vozle-shkoly.html
+Страница https://www.mk.ru/incident/2026/03/23/v-rossiyskom-gorode-podrostki-obnaruzhili-chelovecheskie-ostanki-vozle-shkoly.html содержит недостаточно слов (541 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/vashington-i-tegeran-seli-za-stol-peregovorov-tramp-nazval-vstrechi-produktivnymi.html
+Страница https://www.mk.ru/politics/2026/03/23/vashington-i-tegeran-seli-za-stol-peregovorov-tramp-nazval-vstrechi-produktivnymi.html содержит недостаточно слов (713 < 1000)
+Обработка URL: https://www.mk.ru/culture/2026/03/23/aktyor-tikhon-kotrelyov-propal-posle-trekh-dney-bez-svyazi-na-fone-tyazhyologo-oslozhneniya.html
+Страница https://www.mk.ru/culture/2026/03/23/aktyor-tikhon-kotrelyov-propal-posle-trekh-dney-bez-svyazi-na-fone-tyazhyologo-oslozhneniya.html содержит недостаточно слов (545 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/gruppirovki-v-irake-poobeshhali-nekotoroe-vremya-ne-atakovat-posolstvo-ssha-v-bagdade.html
+Страница https://www.mk.ru/politics/2026/03/23/gruppirovki-v-irake-poobeshhali-nekotoroe-vremya-ne-atakovat-posolstvo-ssha-v-bagdade.html содержит недостаточно слов (557 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/23/aktrisa-stulova-raskryla-chto-proiskhodit-v-eyo-seme.html
+Страница https://www.mk.ru/video/2026/03/23/aktrisa-stulova-raskryla-chto-proiskhodit-v-eyo-seme.html содержит недостаточно слов (440 < 1000)
+Обработка URL: https://www.mk.ru/sport/2026/03/23/rossiyskaya-chempionka-po-figurnomu-kataniyu-ne-smogla-uletet-iz-peterburga-izza-bpla.html
+Страница https://www.mk.ru/sport/2026/03/23/rossiyskaya-chempionka-po-figurnomu-kataniyu-ne-smogla-uletet-iz-peterburga-izza-bpla.html содержит недостаточно слов (519 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/senator-zayavil-o-protivorechii-v-ritorike-trampa-posle-slov-netanyakhu.html
+Страница https://www.mk.ru/politics/2026/03/23/senator-zayavil-o-protivorechii-v-ritorike-trampa-posle-slov-netanyakhu.html содержит недостаточно слов (678 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/v-bryanskoy-oblasti-pri-udare-vsu-postradali-zhenshhiny.html
+Страница https://www.mk.ru/politics/2026/03/23/v-bryanskoy-oblasti-pri-udare-vsu-postradali-zhenshhiny.html содержит недостаточно слов (487 < 1000)
+Обработка URL: https://www.mk.ru/social/2026/03/23/glavu-mvd-kirgizii-privlekli-k-otvetstvennosti.html
+Страница https://www.mk.ru/social/2026/03/23/glavu-mvd-kirgizii-privlekli-k-otvetstvennosti.html содержит недостаточно слов (483 < 1000)
+Обработка URL: https://www.mk.ru/news/2/
+Сохранен документ #46: https://www.mk.ru/news/2/
+Обработка URL: https://www.mk.ru/news/3/
+Сохранен документ #47: https://www.mk.ru/news/3/
+Обработка URL: https://www.mk.ru/news/4/
+Сохранен документ #48: https://www.mk.ru/news/4/
+Обработка URL: https://www.mk.ru/photo/gallery/63400-1244633.html
+Страница https://www.mk.ru/photo/gallery/63400-1244633.html содержит недостаточно слов (468 < 1000)
+Обработка URL: https://www.mk.ru/photo/gallery/63410-1244828.html
+Страница https://www.mk.ru/photo/gallery/63410-1244828.html содержит недостаточно слов (331 < 1000)
+Обработка URL: https://spb.mk.ru/photo/gallery/63406-1244782.html
+Страница https://spb.mk.ru/photo/gallery/63406-1244782.html содержит недостаточно слов (809 < 1000)
+Обработка URL: https://spb.mk.ru
+Сохранен документ #49: https://spb.mk.ru
+Обработка URL: https://www.mk.ru/photo/gallery/63408-1244813.html
+Страница https://www.mk.ru/photo/gallery/63408-1244813.html содержит недостаточно слов (329 < 1000)
+Обработка URL: https://www.mk.ru/photo/gallery/63368-1244029.html
+Страница https://www.mk.ru/photo/gallery/63368-1244029.html содержит недостаточно слов (428 < 1000)
+Обработка URL: https://arh.mk.ru/photo/gallery/63396-1244565.html
+Страница https://arh.mk.ru/photo/gallery/63396-1244565.html содержит недостаточно слов (336 < 1000)
+Обработка URL: https://arh.mk.ru
+Сохранен документ #50: https://arh.mk.ru
+Обработка URL: https://www.mk.ru/photo/gallery/63367-1244001.html
+Страница https://www.mk.ru/photo/gallery/63367-1244001.html содержит недостаточно слов (416 < 1000)
+Обработка URL: https://kazan.mk.ru/photo/gallery/63362-1243917.html
+Страница https://kazan.mk.ru/photo/gallery/63362-1243917.html содержит недостаточно слов (367 < 1000)
+Обработка URL: https://kazan.mk.ru
+Сохранен документ #51: https://kazan.mk.ru
+Обработка URL: https://www.mk.ru/photo/gallery/63359-1243777.html
+Страница https://www.mk.ru/photo/gallery/63359-1243777.html содержит недостаточно слов (335 < 1000)
+Обработка URL: https://www.mk.ru/photo/gallery/63353-1243700.html
+Страница https://www.mk.ru/photo/gallery/63353-1243700.html содержит недостаточно слов (366 < 1000)
+Обработка URL: https://www.mk-hakasia.ru/photo/gallery/63349-1243445.html
+Сохранен документ #52: https://www.mk-hakasia.ru/photo/gallery/63349-1243445.html
+Обработка URL: https://www.mk-hakasia.ru
+Сохранен документ #53: https://www.mk-hakasia.ru
+Обработка URL: https://www.mk.ru/photo/gallery/63347-1243423.html
+Страница https://www.mk.ru/photo/gallery/63347-1243423.html содержит недостаточно слов (382 < 1000)
+Обработка URL: https://chel.mk.ru/photo/gallery/63342-1243332.html
+Страница https://chel.mk.ru/photo/gallery/63342-1243332.html содержит недостаточно слов (373 < 1000)
+Обработка URL: https://chel.mk.ru
+Сохранен документ #54: https://chel.mk.ru
+Обработка URL: https://www.mk.ru/photo/gallery/63344-1243359.html
+Страница https://www.mk.ru/photo/gallery/63344-1243359.html содержит недостаточно слов (353 < 1000)
+Обработка URL: https://tver.mk.ru/photo/gallery/63343-1243356.html
+Страница https://tver.mk.ru/photo/gallery/63343-1243356.html содержит недостаточно слов (360 < 1000)
+Обработка URL: https://tver.mk.ru
+Сохранен документ #55: https://tver.mk.ru
+Обработка URL: https://www.mk.ru/photo/gallery/63327-1243010.html
+Страница https://www.mk.ru/photo/gallery/63327-1243010.html содержит недостаточно слов (403 < 1000)
+Обработка URL: https://www.mk.ru/photo/gallery/63334-1243169.html
+Страница https://www.mk.ru/photo/gallery/63334-1243169.html содержит недостаточно слов (490 < 1000)
+Обработка URL: https://www.mk.ru/photo/gallery/63333-1243130.html
+Страница https://www.mk.ru/photo/gallery/63333-1243130.html содержит недостаточно слов (480 < 1000)
+Обработка URL: https://www.mk.ru/photo/gallery/63331-1243073.html
+Страница https://www.mk.ru/photo/gallery/63331-1243073.html содержит недостаточно слов (784 < 1000)
+Обработка URL: https://www.mk.ru/photo/gallery/63270-1241859.html
+Страница https://www.mk.ru/photo/gallery/63270-1241859.html содержит недостаточно слов (455 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/22/cvety-v-pamyat-o-zhertvakh-terakta-v-krokuse.html
+Страница https://www.mk.ru/video/2026/03/22/cvety-v-pamyat-o-zhertvakh-terakta-v-krokuse.html содержит недостаточно слов (543 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/23/bstanovka-vnutri-doma-po-nikoloyamskoy-ulice-gde-segodnya-nochyu-proizoshel-silnyy-pozhar.html
+Страница https://www.mk.ru/video/2026/03/23/bstanovka-vnutri-doma-po-nikoloyamskoy-ulice-gde-segodnya-nochyu-proizoshel-silnyy-pozhar.html содержит недостаточно слов (406 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/23/olga-medynich-privela-na-premeru-glavnykh-muzhchin-i-mamu-za-kompaniyu.html
+Страница https://www.mk.ru/video/2026/03/23/olga-medynich-privela-na-premeru-glavnykh-muzhchin-i-mamu-za-kompaniyu.html содержит недостаточно слов (430 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/23/derzkiy-stil-gruppy-fabrika-solistki-ustroili-semku-drug-dlya-druga.html
+Страница https://www.mk.ru/video/2026/03/23/derzkiy-stil-gruppy-fabrika-solistki-ustroili-semku-drug-dlya-druga.html содержит недостаточно слов (446 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/02/27/spasena-9letnyaya-sasha-tri-dnya-nakhodivshayasya-v-plenu-u-pokhititelya.html
+Страница https://www.mk.ru/video/2026/02/27/spasena-9letnyaya-sasha-tri-dnya-nakhodivshayasya-v-plenu-u-pokhititelya.html содержит недостаточно слов (400 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/23/posle-gibeli-trekh-chelovek-v-rezultate-pozhara-v-moskve-vozbuzhdeno-ugolovnoe-delo.html
+Страница https://www.mk.ru/video/2026/03/23/posle-gibeli-trekh-chelovek-v-rezultate-pozhara-v-moskve-vozbuzhdeno-ugolovnoe-delo.html содержит недостаточно слов (423 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/23/v-astrakhani-sozhiteli-zaderzhany-za-afery-v-otnoshenii-voennosluzhashhikh-i-pokhishhenie-suprugi-boyca-svo.html
+Страница https://www.mk.ru/video/2026/03/23/v-astrakhani-sozhiteli-zaderzhany-za-afery-v-otnoshenii-voennosluzhashhikh-i-pokhishhenie-suprugi-boyca-svo.html содержит недостаточно слов (416 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/22/chto-na-samom-dele-proiskhodit-so-skotom-v-novosibirskoy-oblasti.html
+Страница https://www.mk.ru/video/2026/03/22/chto-na-samom-dele-proiskhodit-so-skotom-v-novosibirskoy-oblasti.html содержит недостаточно слов (475 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/22/poyavlenie-varley-vyzvalo-vostorg-v-kremle.html
+Страница https://www.mk.ru/video/2026/03/22/poyavlenie-varley-vyzvalo-vostorg-v-kremle.html содержит недостаточно слов (429 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/22/stalo-izvestno-kakoe-delo-vladimira-levkina-sobiraetsya-prodolzhit-ego-vdova.html
+Страница https://www.mk.ru/video/2026/03/22/stalo-izvestno-kakoe-delo-vladimira-levkina-sobiraetsya-prodolzhit-ego-vdova.html содержит недостаточно слов (441 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/22/aktrisa-yana-kraynova-prokommentirovala-roman-marka-bogatyreva-i-niki-zdorik.html
+Страница https://www.mk.ru/video/2026/03/22/aktrisa-yana-kraynova-prokommentirovala-roman-marka-bogatyreva-i-niki-zdorik.html содержит недостаточно слов (450 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/22/konfuz-ryzhego-iz-ivanushek-v-kremle-popal-na-video.html
+Страница https://www.mk.ru/video/2026/03/22/konfuz-ryzhego-iz-ivanushek-v-kremle-popal-na-video.html содержит недостаточно слов (456 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/22/taisiya-povaliy-raskryla-sekret-dolgoletiya-zacepina.html
+Страница https://www.mk.ru/video/2026/03/22/taisiya-povaliy-raskryla-sekret-dolgoletiya-zacepina.html содержит недостаточно слов (441 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/22/renault-duster-naekhal-na-stoyashhiy-polupricep-gruzovika-posle-chego-vrezalsya-v-drugoy-priparkovannyy-bolshegruz-pogiblo-tri-cheloveka.html
+Страница https://www.mk.ru/video/2026/03/22/renault-duster-naekhal-na-stoyashhiy-polupricep-gruzovika-posle-chego-vrezalsya-v-drugoy-priparkovannyy-bolshegruz-pogiblo-tri-cheloveka.html содержит недостаточно слов (410 < 1000)
+Обработка URL: https://www.mk.ru/video/2026/03/22/na-300m-kilometre-federalnoy-trassy-vilyuy-proizoshlo-dtp-s-postradavshim.html
+Страница https://www.mk.ru/video/2026/03/22/na-300m-kilometre-federalnoy-trassy-vilyuy-proizoshlo-dtp-s-postradavshim.html содержит недостаточно слов (431 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/23/na-territorii-ukrainy-za-pyat-dney-ubity-i-raneny-desyatki-natovcev-udary-ot-lvova-do-sum.html
+Сохранен документ #56: https://www.mk.ru/politics/2026/03/23/na-territorii-ukrainy-za-pyat-dney-ubity-i-raneny-desyatki-natovcev-udary-ot-lvova-do-sum.html
+Обработка URL: https://www.mk.ru/authors/sergey-koldin/
+Сохранен документ #57: https://www.mk.ru/authors/sergey-koldin/
+Обработка URL: https://www.mk.ru/politics/2026/03/23/vyyasnilos-otkuda-prileteli-atakovavshie-neftyanoy-port-primorsk-na-baltike-drony-vsu.html
+Сохранен документ #58: https://www.mk.ru/politics/2026/03/23/vyyasnilos-otkuda-prileteli-atakovavshie-neftyanoy-port-primorsk-na-baltike-drony-vsu.html
+Обработка URL: https://www.mk.ru/editorial/exclusive/
+Сохранен документ #59: https://www.mk.ru/editorial/exclusive/
+Обработка URL: https://www.mk.ru/authors/darya-fedotova/
+Сохранен документ #60: https://www.mk.ru/authors/darya-fedotova/
+Обработка URL: https://www.mk.ru/politics/2026/03/23/donbass-i-vybory-raskryty-itogi-peregovorov-ukrainy-i-ssha.html
+Страница https://www.mk.ru/politics/2026/03/23/donbass-i-vybory-raskryty-itogi-peregovorov-ukrainy-i-ssha.html содержит недостаточно слов (952 < 1000)
+Обработка URL: https://www.mk.ru/authors/elizavetakalashnikova/
+Сохранен документ #61: https://www.mk.ru/authors/elizavetakalashnikova/
+Обработка URL: https://www.mk.ru/incident/2026/03/22/eksperty-v-studii-mk-tv-razrushili-mif-o-pasterelleze-i-rasskazali-chto-na-samom-dele-vedet-k-izyatiyu-skota.html
+Страница https://www.mk.ru/incident/2026/03/22/eksperty-v-studii-mk-tv-razrushili-mif-o-pasterelleze-i-rasskazali-chto-na-samom-dele-vedet-k-izyatiyu-skota.html содержит недостаточно слов (816 < 1000)
+Обработка URL: https://www.mk.ru/authors/elena-gamayun/
+Сохранен документ #62: https://www.mk.ru/authors/elena-gamayun/
+Обработка URL: https://www.mk.ru/politics/2026/03/20/rossiya-sleduyushhaya-v-spiske-unichtozheniya-zapad-vnov-obedinilsya-protiv-obshhego-vraga.html
+Страница https://www.mk.ru/politics/2026/03/20/rossiya-sleduyushhaya-v-spiske-unichtozheniya-zapad-vnov-obedinilsya-protiv-obshhego-vraga.html содержит недостаточно слов (878 < 1000)
+Обработка URL: https://www.mk.ru/politics/2026/03/17/na-forume-v-rostovenadonu-edinaya-rossiya-podvela-itogi-pyatiletney-raboty-v-sfere-zhkkh-i-stroitelstva.html
+Сохранен документ #63: https://www.mk.ru/politics/2026/03/17/na-forume-v-rostovenadonu-edinaya-rossiya-podvela-itogi-pyatiletney-raboty-v-sfere-zhkkh-i-stroitelstva.html
+Обработка URL: https://www.mk.ru/sport/2026/03/17/triumfalnoe-vozvrashhenie-rossiyskikh-paralimpiycev-izobilie-medaley-na-igrakh2026-i-plany-na-budushhee.html
+Страница https://www.mk.ru/sport/2026/03/17/triumfalnoe-vozvrashhenie-rossiyskikh-paralimpiycev-izobilie-medaley-na-igrakh2026-i-plany-na-budushhee.html содержит недостаточно слов (838 < 1000)
+Обработка URL: https://www.avtovzglyad.ru/prilavok/zapchasti/70782-2026-03-20-garantiya-proizvoditelya-kak-rabotaet-novyiy-servis-avito-pri-pokupke-zapchastey/?utm_referrer=mk.ru
+Страница https://www.avtovzglyad.ru/prilavok/zapchasti/70782-2026-03-20-garantiya-proizvoditelya-kak-rabotaet-novyiy-servis-avito-pri-pokupke-zapchastey/?utm_referrer=mk.ru содержит недостаточно слов (603 < 1000)
+Обработка URL: https://www.avtovzglyad.ru/obshestvo/socium/70784-2026-03-20-gde-pravilno-postavit-zapyatuyu-elektrosamokatyi-zapretit-nelzya-razreshit/?utm_referrer=mk.ru
+Страница https://www.avtovzglyad.ru/obshestvo/socium/70784-2026-03-20-gde-pravilno-postavit-zapyatuyu-elektrosamokatyi-zapretit-nelzya-razreshit/?utm_referrer=mk.ru содержит недостаточно слов (634 < 1000)
+Обработка URL: https://www.avtovzglyad.ru/obshestvo/socium/70783-2026-03-20-15-let-vrozyiske-kak-yuriy-kachmazov-ustanovil-kontrol-nad-avtovazom/?utm_referrer=mk.ru
+Сохранен документ #64: https://www.avtovzglyad.ru/obshestvo/socium/70783-2026-03-20-15-let-vrozyiske-kak-yuriy-kachmazov-ustanovil-kontrol-nad-avtovazom/?utm_referrer=mk.ru
+Обработка URL: https://www.womanhit.ru/stars/90599-2026-03-23-volosyi-votvot-vyilezut-nevestku-valerii-podozrevayut-vinektsiyah-dlya-pohudeniya/?utm_referrer=mk.ru
+Страница https://www.womanhit.ru/stars/90599-2026-03-23-volosyi-votvot-vyilezut-nevestku-valerii-podozrevayut-vinektsiyah-dlya-pohudeniya/?utm_referrer=mk.ru содержит недостаточно слов (551 < 1000)
+Обработка URL: https://www.womanhit.ru/stars/90592-2026-03-23-yaznala-chto-onneponimaet-nichego-simonyan-raskryila-dusherazdirayuschie-detali-finalnyih-dney-keosayana/?utm_referrer=mk.ru
+Страница https://www.womanhit.ru/stars/90592-2026-03-23-yaznala-chto-onneponimaet-nichego-simonyan-raskryila-dusherazdirayuschie-detali-finalnyih-dney-keosayana/?utm_referrer=mk.ru содержит недостаточно слов (659 < 1000)
+Обработка URL: https://www.womanhit.ru/stars/90580-2026-03-22-advokatyi-lerchek-obvinyayut-sledovatelya-votkaze-meditsinskoy-pomoschi-4-raza-analizyi-blogershi-vsegda-byili-plohimi/?utm_referrer=mk.ru
+Страница https://www.womanhit.ru/stars/90580-2026-03-22-advokatyi-lerchek-obvinyayut-sledovatelya-votkaze-meditsinskoy-pomoschi-4-raza-analizyi-blogershi-vsegda-byili-plohimi/?utm_referrer=mk.ru содержит недостаточно слов (524 < 1000)
+Обработка URL: https://www.ohotniki.ru/hunting/article/2026/03/23/676839-shvatil-menya-za-golovu-i-potaschil-po-zemle-medved-napal-na-nauchnyiy-lager.html?utm_referrer=mk.ru
+Сохранен документ #65: https://www.ohotniki.ru/hunting/article/2026/03/23/676839-shvatil-menya-za-golovu-i-potaschil-po-zemle-medved-napal-na-nauchnyiy-lager.html?utm_referrer=mk.ru
+Обработка URL: https://www.ohotniki.ru/fishing/gear/article/2026/03/23/676832-novosti-s-vodoemov-volgogradskoy-oblasti.html?utm_referrer=mk.ru
+Страница https://www.ohotniki.ru/fishing/gear/article/2026/03/23/676832-novosti-s-vodoemov-volgogradskoy-oblasti.html?utm_referrer=mk.ru содержит недостаточно слов (543 < 1000)
+Обработка URL: https://www.ohotniki.ru/fishing/gear/news/2026/03/23/676828-ryibolovnyie-vesti-iz-mariy-el.html?utm_referrer=mk.ru
+Страница https://www.ohotniki.ru/fishing/gear/news/2026/03/23/676828-ryibolovnyie-vesti-iz-mariy-el.html?utm_referrer=mk.ru содержит недостаточно слов (345 < 1000)
+Обработка URL: https://www.mk.ru/authors/
+Сохранен документ #66: https://www.mk.ru/authors/
+Обработка URL: https://www.mk.ru/polls/
+Страница https://www.mk.ru/polls/ содержит недостаточно слов (716 < 1000)
+Обработка URL: https://www.mk.ru/blogs/
+Сохранен документ #67: https://www.mk.ru/blogs/
+Обработка URL: https://www.mk.ru/merinov/
+Страница https://www.mk.ru/merinov/ содержит недостаточно слов (336 < 1000)
+Обработка URL: https://www.mk.ru/pro/
+Страница https://www.mk.ru/pro/ содержит недостаточно слов (792 < 1000)
+Обработка URL: https://www.mk.ru/medical/
+Сохранен документ #68: https://www.mk.ru/medical/
+Обработка URL: https://www.mk.ru/regions/about/
+Страница https://www.mk.ru/regions/about/ содержит недостаточно слов (578 < 1000)
+Обработка URL: https://www.mk.ru/vacancy/
+Сохранен документ #69: https://www.mk.ru/vacancy/
+Обработка URL: https://www.mk.ru/contacts/
+Страница https://www.mk.ru/contacts/ содержит недостаточно слов (351 < 1000)
+Обработка URL: https://www.mk.ru/ad/
+Страница https://www.mk.ru/ad/ содержит недостаточно слов (417 < 1000)
+Обработка URL: http://ok.mk.ru/
+Ошибка при загрузке http://ok.mk.ru/: ('Connection broken: IncompleteRead(22814 bytes read, 6920 more expected)', IncompleteRead(22814 bytes read, 6920 more expected))
+Обработка URL: https://www.mk.ru/agentstvo_mk/
+Страница https://www.mk.ru/agentstvo_mk/ содержит недостаточно слов (481 < 1000)
+Обработка URL: http://mediaservice.mk.ru/
+Страница http://mediaservice.mk.ru/ содержит недостаточно слов (213 < 1000)
+Обработка URL: https://www.mk.ru/mk-service/
+Страница https://www.mk.ru/mk-service/ содержит недостаточно слов (291 < 1000)
+Обработка URL: https://www.mk.ru/app/
+Сохранен документ #70: https://www.mk.ru/app/
+Обработка URL: https://www.mk-chukotka.ru/
+Сохранен документ #71: https://www.mk-chukotka.ru/
+Обработка URL: https://ast.mk.ru
+Сохранен документ #72: https://ast.mk.ru
+Обработка URL: https://brl.mk.ru/
+Сохранен документ #73: https://brl.mk.ru/
+Обработка URL: https://www.mk-belgorod.ru/
+Сохранен документ #74: https://www.mk-belgorod.ru/
+Обработка URL: https://www.mk-amur.ru/
+Сохранен документ #75: https://www.mk-amur.ru/
+Обработка URL: https://www.mkbryansk.ru/
+Сохранен документ #76: https://www.mkbryansk.ru/
+Обработка URL: https://www.mk-novgorod.ru/
+Сохранен документ #77: https://www.mk-novgorod.ru/
+Обработка URL: https://vlad.mk.ru/
+Сохранен документ #78: https://vlad.mk.ru/
+Обработка URL: https://kavkaz.mk.ru/
+Сохранен документ #79: https://kavkaz.mk.ru/
+Обработка URL: https://vladimir.mk.ru/
+Сохранен документ #80: https://vladimir.mk.ru/
+Обработка URL: https://volg.mk.ru/
+Сохранен документ #81: https://volg.mk.ru/
+Обработка URL: https://vologda.mk.ru/
+Сохранен документ #82: https://vologda.mk.ru/
+Обработка URL: https://vrn.mk.ru/
+Сохранен документ #83: https://vrn.mk.ru/
+Обработка URL: https://www.mk-donbass.ru/
+Сохранен документ #84: https://www.mk-donbass.ru/
+Обработка URL: https://eburg.mk.ru/
+Сохранен документ #85: https://eburg.mk.ru/
+Обработка URL: https://www.mk-zap.ru/
+Сохранен документ #86: https://www.mk-zap.ru/
+Обработка URL: https://www.mkivanovo.ru/
+Сохранен документ #87: https://www.mkivanovo.ru/
+Обработка URL: https://izhevsk.mk.ru/
+Сохранен документ #88: https://izhevsk.mk.ru/
+Обработка URL: https://baikal.mk.ru/
+Сохранен документ #89: https://baikal.mk.ru/
+Обработка URL: https://www.mk-kaliningrad.ru/
+Сохранен документ #90: https://www.mk-kaliningrad.ru/
+Обработка URL: https://www.mkkaluga.ru/
+Сохранен документ #91: https://www.mkkaluga.ru/
+Обработка URL: https://www.mk-kuzbass.ru/
+Сохранен документ #92: https://www.mk-kuzbass.ru/
+Обработка URL: https://www.mk-kirov.ru
+Сохранен документ #93: https://www.mk-kirov.ru
+Обработка URL: https://kostroma.mk.ru/
+Сохранен документ #94: https://kostroma.mk.ru/
+Обработка URL: https://kuban.mk.ru/
+Сохранен документ #95: https://kuban.mk.ru/
+Обработка URL: https://kras.mk.ru/
+Сохранен документ #96: https://kras.mk.ru/
+Обработка URL: https://chr.mk.ru/
+Сохранен документ #97: https://chr.mk.ru/
+Обработка URL: https://www.mk-tuva.ru/
+Сохранен документ #98: https://www.mk-tuva.ru/
+Обработка URL: https://www.mk-lenobl.ru/
+Сохранен документ #99: https://www.mk-lenobl.ru/
+Обработка URL: https://www.mk-lipetsk.ru/
+Сохранен документ #100: https://www.mk-lipetsk.ru/
 
 Скачано 100 страниц
+
