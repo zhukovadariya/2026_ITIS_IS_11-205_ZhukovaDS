@@ -1,8 +1,8 @@
 import os
 import re
 import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urljoin, urlparse
+from bs4 import BeautifulSoup, Comment
+from urllib.parse import urljoin, urlparse, quote, urlunparse
 import time
 import sys
 from collections import deque
@@ -23,13 +23,22 @@ class WebCrawler:
             f.write("")
 
     def is_russian_page(self, text):
+        """
+        Проверка русскоязычности текста.
+        Важно: метод получает уже очищенный текст (без HTML-тегов)
+        """
+        # Подсчитываем русские символы
         russian_pattern = re.compile(r'[а-яА-ЯёЁ]')
-        russian_chars = russian_pattern.findall(text)
+        russian_chars = len(russian_pattern.findall(text))
+
+        # Подсчитываем все буквенные символы
         total_chars = len(re.findall(r'[a-zA-Zа-яА-ЯёЁ]', text))
+
         if total_chars == 0:
             return False
 
-        return len(russian_chars) / total_chars > 0.5
+        # Доля русских символов должна быть > 50%
+        return russian_chars / total_chars > 0.5
 
     def count_words(self, text):
         words = re.findall(r'\b[а-яА-ЯёЁa-zA-Z]+\b', text)
@@ -38,23 +47,76 @@ class WebCrawler:
     def extract_text_from_html(self, html_content):
         soup = BeautifulSoup(html_content, 'html.parser')
 
-        for script in soup(["script", "style", "meta", "link"]):
-            script.decompose()
+        # Удаляем все нежелательные элементы
+        unwanted_tags = [
+            'script', 'style', 'meta', 'link', 'noscript', 'header', 'footer',
+            'nav', 'aside', 'form', 'input', 'button', 'iframe', 'svg', 'path',
+            'canvas', 'video', 'audio', 'source', 'embed', 'object'
+        ]
 
+        for tag in unwanted_tags:
+            for element in soup.find_all(tag):
+                element.decompose()
+
+        # Удаляем комментарии
+        for comment in soup.find_all(string=lambda text: isinstance(text, Comment)):
+            comment.extract()
+
+        # Удаляем атрибуты у тегов, оставляя только текст
+        for tag in soup.find_all(True):
+            tag.attrs = {}
+
+        # Добавляем пробелы вокруг блочных элементов
+        block_tags = ['p', 'div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'br', 'li', 'td', 'th']
+        for tag in block_tags:
+            for element in soup.find_all(tag):
+                element.insert_before(' ')
+                element.insert_after(' ')
+
+        # Получаем текст
         text = soup.get_text()
 
-        lines = (line.strip() for line in text.splitlines())
-        chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-        text = ' '.join(chunk for chunk in chunks if chunk)
+        # Очищаем от URL и ссылок
+        text = re.sub(r'https?://\S+', '', text)
+        text = re.sub(r'www\.\S+', '', text)
 
-        return text
+        # Очищаем от дат и временных меток
+        text = re.sub(r'\d{4}-\d{2}-\d{2}[T\s]\d{2}:\d{2}:\d{2}[+-]\d{2}:\d{2}', '', text)
+        text = re.sub(r'\d{2}:\d{2}\s\d{2}\.\d{2}\.\d{4}', '', text)
+
+        # Удаляем множественные пробелы и пустые строки
+        text = re.sub(r'\s+', ' ', text)
+
+        # Удаляем строки, которые выглядят как метаданные
+        lines = text.split('\n')
+        clean_lines = []
+        for line in lines:
+            line = line.strip()
+            # Пропускаем строки, похожие на URL, email, copyright и т.д.
+            if line and not re.match(r'^(https?://|www\.|©|\(с\)|@)', line):
+                clean_lines.append(line)
+
+        text = ' '.join(clean_lines)
+
+        return text.strip()
 
     def extract_links(self, html_content, base_url):
         soup = BeautifulSoup(html_content, 'html.parser')
         links = []
 
         for link in soup.find_all('a', href=True):
-            absolute_url = urljoin(base_url, link['href'])
+            # Получаем сырую ссылку
+            raw_url = link['href']
+
+            # Кодируем кириллицу в URL
+            try:
+                # Разделяем URL на части и кодируем только path
+                parsed = urlparse(raw_url)
+                encoded_path = quote(parsed.path, safe='/')
+                encoded_url = parsed._replace(path=encoded_path).geturl()
+                absolute_url = urljoin(base_url, encoded_url)
+            except:
+                absolute_url = urljoin(base_url, raw_url)
 
             parsed_url = urlparse(absolute_url)
 
@@ -97,17 +159,51 @@ class WebCrawler:
 
         return True
 
+    def normalize_url(self, url):
+        """
+        Нормализация URL для сравнения:
+        - Приведение к нижнему регистру
+        - Удаление фрагментов (#)
+        - Удаление www
+        - Нормализация слешей
+        """
+        parsed = urlparse(url)
+
+        # Приводим схему и домен к нижнему регистру
+        scheme = parsed.scheme.lower()
+        netloc = parsed.netloc.lower()
+
+        # Удаляем www
+        if netloc.startswith('www.'):
+            netloc = netloc[4:]
+
+        # Нормализуем path
+        path = parsed.path
+        if path.endswith('/'):
+            path = path[:-1]
+        if not path:
+            path = '/'
+
+        # Собираем URL без фрагмента
+        normalized = urlunparse((
+            scheme, netloc, path,
+            parsed.params, parsed.query, ''
+        ))
+
+        return normalized
+
     def crawl(self, max_documents=100, min_words=1000):
         doc_counter = 0
 
         while self.url_queue and doc_counter < max_documents:
             url = self.url_queue.popleft()
+            normalized_url = self.normalize_url(url)
 
-            if url in self.visited_urls:
+            if normalized_url in self.visited_urls:
                 continue
 
             print(f"Обработка URL: {url}")
-            self.visited_urls.add(url)
+            self.visited_urls.add(normalized_url)
 
             html_content = self.download_page(url)
             if not html_content:
@@ -128,7 +224,8 @@ class WebCrawler:
 
             links = self.extract_links(html_content, url)
             for link in links:
-                if link not in self.visited_urls and link not in self.url_queue:
+                normalized_link = self.normalize_url(link)
+                if normalized_link not in self.visited_urls and normalized_link not in self.url_queue:
                     self.url_queue.append(link)
 
             time.sleep(1)
