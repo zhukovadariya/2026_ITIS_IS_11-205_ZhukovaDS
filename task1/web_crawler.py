@@ -192,7 +192,7 @@ class WebCrawler:
 
         return normalized
 
-    def crawl(self, max_documents=100, min_words=1000):
+    def crawl(self, max_documents=200, min_words=1000):
         doc_counter = 0
 
         while self.url_queue and doc_counter < max_documents:
@@ -240,7 +240,7 @@ def main():
 
     seed_urls = sys.argv[1:]
     crawler = WebCrawler(seed_urls)
-    downloaded = crawler.crawl(max_documents=100, min_words=1000)
+    downloaded = crawler.crawl(max_documents=200, min_words=1000)
 
 if __name__ == "__main__":
     main()
